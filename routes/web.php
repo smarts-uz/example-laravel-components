@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ReportController;
+use App\Http\Controllers\UppyController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,6 +21,10 @@ Route::controller(ReportController::class)->group(function() {
     Route::any('/report/request','report')->name('report');
     Route::any('/report/export/{id}','report_export')->name('report_export');
 
+});
+Route::controller(UppyController::class)->group(function() {
+    Route::get('/uppy', 'view');
+    Route::post('/uploadimage/update', 'uploadImage')->name('uploadImage');
 });
 
 Route::group(['prefix' => 'admin'], function () {

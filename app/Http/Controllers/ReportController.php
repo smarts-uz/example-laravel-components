@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Services\ReportExportService;
 use App\Services\ReportService;
+use App\Services\UppyService;
 use Exception;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -15,7 +16,7 @@ class ReportController extends Controller
     private ReportExportService $exportService;
     private ReportService $service;
 
-    public function __construct(ReportExportService $exportService,ReportService $service)
+    public function __construct(ReportExportService $exportService, ReportService $service)
     {
         $this->exportService = $exportService;
         $this->service = $service;
