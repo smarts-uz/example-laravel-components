@@ -13,7 +13,10 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^9.0",
         "laravel/tinker": "^2.0",
-        "tcg/voyager": "^1.5"
+        "maatwebsite/excel": "^3.1",
+        "tcg/voyager": "^1.5",
+        "teamprodev/laravel-components": "^1.2",
+        "yajra/laravel-datatables": "^9.0"
     },
     "require-dev": {
         "spatie/laravel-ignition": "^1.0",

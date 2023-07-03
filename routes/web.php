@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ReportController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,10 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
+Route::controller(ReportController::class)->group(function() {
+    Route::get('/', 'view');
+    Route::any('/report/request','report')->name('report');
+    Route::any('/report/export/{id}','report_export')->name('report_export');
+
+});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
