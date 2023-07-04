@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EimzoController;
 use App\Http\Controllers\ReportController;
 use App\Http\Controllers\UppyController;
 use Illuminate\Support\Facades\Route;
@@ -26,7 +27,9 @@ Route::controller(UppyController::class)->group(function() {
     Route::get('/uppy', 'view');
     Route::post('/uploadimage/update', 'uploadImage')->name('uploadImage');
 });
-
+Route::controller(EimzoController::class)->group(function() {
+    Route::get('/eimzo', 'view');
+});
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
