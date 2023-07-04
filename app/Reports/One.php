@@ -110,11 +110,16 @@ class One extends DefaultValueBinder implements WithStyles, FromCollection, With
 
     public static function events(): array
     {
-        return ['draw.dt' => "function () {alert( 'Table redrawn' );}"];
+        return [];
     }
     public static function options(): array
     {
-        return [];
+        return [
+            "autoFill" => "{focus: 'click'}",
+            "colReorder" => "{order: [4, 3, 2, 1, 0, 5]}",
+            "fixedColumns" => "{left: 1,right: 1}",
+            "fixedHeader" => "{header: false,footer: true}",
+        ];
     }
 
     /**

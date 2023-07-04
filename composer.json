@@ -15,7 +15,7 @@
         "laravel/tinker": "^2.0",
         "maatwebsite/excel": "^3.1",
         "tcg/voyager": "^1.5",
-        "teamprodev/laravel-components": "^1.2",
+        "teamprodev/laravel-components": "dev-master",
         "yajra/laravel-datatables": "^9.0"
     },
     "require-dev": {
