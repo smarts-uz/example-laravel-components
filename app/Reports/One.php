@@ -119,6 +119,15 @@ class One extends DefaultValueBinder implements WithStyles, FromCollection, With
             "colReorder" => "{order: [4, 3, 2, 1, 0, 5]}",
             "fixedColumns" => "{left: 1,right: 1}",
             "fixedHeader" => "{header: false,footer: true}",
+            "keys" => "true",
+            "responsive" => "{details: false}",
+            "rowGroup" => "{dataSrc: 'group',enable: false}",
+            "rowReorder" => "{dataSrc: 'sequence',editor:  editor}",
+            "scrollY" => "true",
+            "scroller" => "{rowHeight: 30}",
+            "searchBuilder" => "{columns: [1,2,3]}",
+            "searchPanes" => "{cascadePanes: true,clear: false}",
+            "select" => "{info: false}",
         ];
     }
 
