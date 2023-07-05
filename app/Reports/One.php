@@ -110,7 +110,9 @@ class One extends DefaultValueBinder implements WithStyles, FromCollection, With
 
     public static function events(): array
     {
-        return [];
+        return [
+            "autoFill" => "function ( e, datatable, cells ) {alert( (cells.length * cells[0].length)+' cells were updated' );}",
+        ];
     }
     public static function options(): array
     {
