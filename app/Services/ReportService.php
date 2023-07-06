@@ -12,6 +12,8 @@ class ReportService
 {
 
     /**
+     * Get All User's Information
+     *
      * @return JsonResponse
      * @throws Exception
      */

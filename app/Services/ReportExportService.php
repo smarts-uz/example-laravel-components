@@ -8,6 +8,8 @@ use Symfony\Component\HttpFoundation\BinaryFileResponse;
 class ReportExportService
 {
     /**
+     * Download Excel File
+     *
      * @param $model
      * @param object $request
      * @return BinaryFileResponse

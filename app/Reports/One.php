@@ -66,6 +66,8 @@ class One extends DefaultValueBinder implements WithStyles, FromCollection, With
     }
 
     /**
+     * Report's Title
+     *
      * @return string
      */
     public static function title() : string
@@ -74,6 +76,8 @@ class One extends DefaultValueBinder implements WithStyles, FromCollection, With
     }
 
     /**
+     * Report header
+     *
      * @return array
      */
     public static function dtHeaders(): array
@@ -97,6 +101,8 @@ class One extends DefaultValueBinder implements WithStyles, FromCollection, With
     }
 
     /**
+     * Report Columns
+     *
      * @return array
      */
     public static function dtColumns(): array
@@ -108,12 +114,45 @@ class One extends DefaultValueBinder implements WithStyles, FromCollection, With
         ];
     }
 
+    /**
+     * Event
+     *
+     * @return array
+     */
     public static function events(): array
     {
         return [
+            "draw.dt" => "function () {alert( 'Table redrawn' );}",
             "autoFill" => "function ( e, datatable, cells ) {alert( (cells.length * cells[0].length)+' cells were updated' );}",
+            "buttons-action" => "function ( e, buttonApi, dataTable, node, config ) {console.log( 'Button '+buttonApi.text()+' was activated' );}",
+            "column-reorder" => "function ( e, settings, details ) {var headerCell = $( table.column( details.to ).header() );headerCell.addClass( 'reordered' );setTimeout( function () {headerCell.removeClass( 'reordered' );}, 2000 );}",
+            "key" => "function ( e, datatable, key, cell, originalEvent ) {if ( key === 13 ) {setTimeout( function() {editor.one( 'close', function () {table.keys.enable();} ).inline( cell.node() );}, 100 );table.keys.disable();}}",
+            "responsive-display" => "function ( e, datatable, row, showHide, update ) {console.log( 'Details for row '+row.index()+' '+(showHide ? 'shown' : 'hidden') );}",
+            "rowgroup-datasrc" => "function ( e, dt, val ) {table.order.fixed( {pre: [[ val, 'asc' ]]} ).draw();}",
+            "row-reorder" => "function ( e, diff, edit ) {for ( var i=0, ien=diff.length ; i<ien ; i++ ) { $(diff[i].node).addClass('reordered');}}",
+            "select" => "function ( e, dt, type, indexes ) {table[ type ]( indexes ).nodes().to$().addClass( 'custom-selected' );}",
+            "draw stateRestore-change" => "function() {
+        var active = table.stateRestore.activeStates();
+        var activeString = 'Active States: ';
+        if(active.length > 0) {
+            activeString += active[0].name;
+            for(var i = 1; i < active.length; i++) {
+                activeString += ', '+active[i].name;
+            }
+        }
+        else {
+            activeString += 'No active state';
+        }
+        $('div.activeStates').text(activeString)
+    }",
         ];
     }
+
+    /**
+     * Options
+     *
+     * @return array
+     */
     public static function options(): array
     {
         return [
