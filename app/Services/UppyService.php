@@ -3,11 +3,6 @@
 
 namespace App\Services;
 
-use App\Models\User;
-use Exception;
-use Illuminate\Http\JsonResponse;
-use Yajra\DataTables\DataTables;
-
 class UppyService
 {
 
