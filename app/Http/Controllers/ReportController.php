@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Services\ReportExportService;
 use App\Services\ReportService;
-use App\Services\UppyService;
 use Exception;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -39,6 +38,8 @@ class ReportController extends Controller
 
     }
     /**
+     * Report Export
+     *
      * @param $model
      * @param Request $request
      * @return BinaryFileResponse
