@@ -2,9 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Application;
-use App\Services\ApplicationService;
 use App\Services\UppyService;
+use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
@@ -19,13 +18,15 @@ class UppyController extends Controller
     }
 
     /**
-     * @return Factory|View|\Illuminate\Contracts\Foundation\Application
+     * @return Factory|View|Application
      */
-    public function view(): Factory|View|\Illuminate\Contracts\Foundation\Application
+    public function view(): Factory|View|Application
     {
         return view('uppy');
     }
     /**
+     * Image Upload
+     *
      * @param Request $request
      * @return bool
      */
