@@ -6663,12 +6663,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/smarts-uz/laravel-components.git",
-                "reference": "1ca98dfdff8320edd3f7b085c9b864359f44fc45"
+                "reference": "885d0b0cee3c20f3c900079fac3ad6384e8e41a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smarts-uz/laravel-components/zipball/1ca98dfdff8320edd3f7b085c9b864359f44fc45",
-                "reference": "1ca98dfdff8320edd3f7b085c9b864359f44fc45",
+                "url": "https://api.github.com/repos/smarts-uz/laravel-components/zipball/885d0b0cee3c20f3c900079fac3ad6384e8e41a9",
+                "reference": "885d0b0cee3c20f3c900079fac3ad6384e8e41a9",
                 "shasum": ""
             },
             "require": {
@@ -6726,7 +6726,7 @@
                 "issues": "https://github.com/smarts-uz/laravel-components/issues",
                 "source": "https://github.com/smarts-uz/laravel-components/tree/master"
             },
-            "time": "2023-07-10T08:52:16+00:00"
+            "time": "2023-07-10T09:23:49+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
