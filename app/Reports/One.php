@@ -80,7 +80,7 @@ class One extends DefaultValueBinder implements WithStyles, FromCollection, With
      *
      * @return array
      */
-    public static function dtHeaders(): array
+    public static function headers(): array
     {
         return [
             [
@@ -105,7 +105,7 @@ class One extends DefaultValueBinder implements WithStyles, FromCollection, With
      *
      * @return array
      */
-    public static function dtColumns(): array
+    public static function columns(): array
     {
         return [
             ['data' => 'id', 'name' => 'id'],
