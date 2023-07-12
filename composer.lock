@@ -6663,12 +6663,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/smarts-uz/laravel-components.git",
-                "reference": "885d0b0cee3c20f3c900079fac3ad6384e8e41a9"
+                "reference": "e09876564bee0db6c16a9f3c9dad5b8779aed58d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smarts-uz/laravel-components/zipball/885d0b0cee3c20f3c900079fac3ad6384e8e41a9",
-                "reference": "885d0b0cee3c20f3c900079fac3ad6384e8e41a9",
+                "url": "https://api.github.com/repos/smarts-uz/laravel-components/zipball/e09876564bee0db6c16a9f3c9dad5b8779aed58d",
+                "reference": "e09876564bee0db6c16a9f3c9dad5b8779aed58d",
                 "shasum": ""
             },
             "require": {
@@ -6696,13 +6696,13 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "BladeUIKit\\BladeUIKitServiceProvider"
+                        "Smarts\\SmartsServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "BladeUIKit\\": "src"
+                    "Smarts\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -6718,15 +6718,15 @@
             ],
             "description": "A set of renderless components to utilise in your Laravel Blade views.",
             "keywords": [
+                "Smarts",
                 "blade",
-                "laravel",
-                "ui"
+                "laravel"
             ],
             "support": {
                 "issues": "https://github.com/smarts-uz/laravel-components/issues",
                 "source": "https://github.com/smarts-uz/laravel-components/tree/master"
             },
-            "time": "2023-07-10T09:23:49+00:00"
+            "time": "2023-07-12T05:00:43+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
