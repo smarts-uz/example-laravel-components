@@ -18,17 +18,17 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::controller(ReportController::class)->group(function() {
-    Route::get('/', 'view');
+    Route::get('/', 'view')->name('yajra');
     Route::any('/report/request','report')->name('report');
     Route::any('/report/export/{id}','report_export')->name('report_export');
 
 });
 Route::controller(UppyController::class)->group(function() {
-    Route::get('/uppy', 'view');
+    Route::get('/uppy', 'view')->name('uppy');
     Route::post('/uploadimage/update', 'uploadImage')->name('uploadImage');
 });
 Route::controller(EimzoController::class)->group(function() {
-    Route::get('/eimzo', 'view');
+    Route::get('/eimzo', 'view')->name('eimzo');
 });
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

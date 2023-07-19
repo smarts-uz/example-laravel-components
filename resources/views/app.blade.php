@@ -6,18 +6,27 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Example App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
     @bukStyles(true)
-
 </head>
 
-<body class="sidebar-mini" style="height: auto;">
+<body class="sidebar-mini">
 @bukScripts(true)
 <div class="wrapper">
-    @yield('center_content')
+    <aside class="main-sidebar sidebar-dark-primary elevation-4 layout-fixed">
+        @include('dashboard.sidebar')
+    </aside>
+    <div class="content-wrapper">
+        <div class="content">
+            @yield('center_content')
+        </div>
+    </div>
+
 </div>
 
 <!-- App scripts -->
 @stack('scripts')
+<script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
 
 <script src="https://cdn.datatables.net/autofill/2.6.0/js/dataTables.autoFill.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/2.2.2/js/dataTables.buttons.min.js"></script>
