@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Spatie\Menu\Laravel\MenuServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -227,6 +227,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        'Menu' => Spatie\Menu\Laravel\Facades\Menu::class,
     ],
 
 ];
