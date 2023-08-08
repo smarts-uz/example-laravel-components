@@ -322,25 +322,16 @@ return [
         [
             'text'    => 'Datatable',
             'icon_color'    => 'cyan',
-            'submenu' => [
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-            ],
+            'url' => '/yajra',
         ],
         [
             'text' => 'Uppy',
-            'url' => '#',
+            'url' => '/uppy',
             'icon_color' => 'cyan',
         ],
         [
             'text' => 'Eimzo',
-            'url' => '#',
+            'url' => '/eimzo',
             'icon_color' => 'cyan',
         ],
         //['header' => 'labels'],

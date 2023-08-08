@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::controller(ReportController::class)->group(function() {
-    Route::get('/', 'view')->name('yajra');
+    Route::get('/yajra', 'view')->name('yajra');
     Route::any('/report/request','report')->name('report');
     Route::any('/report/export/{id}','report_export')->name('report_export');
 
@@ -36,4 +36,4 @@ Route::group(['prefix' => 'admin'], function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
