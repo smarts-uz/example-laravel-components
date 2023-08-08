@@ -7,11 +7,11 @@
 @stop
 
 @section('content')
+    @bukScripts(true)
     @yield('center_content')
 @stop
 
 @section('js')
-    @bukScripts(true)
     <!-- App scripts -->
     @stack('scripts')
     <script src="https://cdn.datatables.net/autofill/2.6.0/js/dataTables.autoFill.min.js"></script>
