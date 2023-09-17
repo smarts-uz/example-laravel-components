@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::controller(ReportController::class)->group(function() {
-    Route::get('/yajra', 'view')->name('yajra');
+    Route::get('/yajra/{extension?}/{value?}', 'view')->name('yajra');
     Route::any('/report/request','report')->name('report');
     Route::any('/report/export/{id}','report_export')->name('report_export');
 

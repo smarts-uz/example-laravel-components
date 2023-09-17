@@ -22,7 +22,7 @@ class One extends DefaultValueBinder implements WithStyles, FromCollection, With
 
     private Builder $query;
 
-    public function __construct()
+    public function __construct($startDate,$endDate)
     {
         $this->query = User::query()->select('id','name','email');
     }

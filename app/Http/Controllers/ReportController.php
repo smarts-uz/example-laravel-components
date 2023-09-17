@@ -24,9 +24,9 @@ class ReportController extends Controller
     /**
      * @return View
      */
-    public function view(): View
+    public function view($extension,$value=true): View
     {
-        return view('report');
+        return view('report',['extension' => [$extension => $value]]);
     }
     /**
      * @return JsonResponse
