@@ -325,7 +325,18 @@ return [
             'submenu' => [
                 [
                     'text' => 'AutoFill',
-                    'url'  => 'yajra/autofill',
+                    'submenu' => [
+                        [
+                            'text' => 'Click focus',
+                            'url'  => "yajra/autofill.clickfocus"
+                        ],
+
+                        [
+                        'text' => 'Event',
+                        'url'  => ""
+                        ]
+
+                    ]
                 ],
                 [
                     'text' => 'Buttons',
