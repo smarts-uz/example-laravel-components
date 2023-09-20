@@ -7,6 +7,7 @@ use App\Services\ReportService;
 use Exception;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\View\View;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
@@ -24,8 +25,9 @@ class ReportController extends Controller
     /**
      * @return View
      */
-    public function view($name,$value=true): View
+    public function view($name): View
     {
+        //Log::info('View',['blade' => $name]);
         return view($name);
     }
     /**
