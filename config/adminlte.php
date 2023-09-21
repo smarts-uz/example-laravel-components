@@ -340,7 +340,18 @@ return [
                 ],
                 [
                     'text' => 'Buttons',
-                    'url'  => 'yajra/buttons',
+                    'submenu' => [
+                        [
+                            'text' => 'Multi-level collections',
+                            'url'  => "yajra/buttons.multilevelcollections"
+                        ],
+
+                        [
+                            'text' => 'Events',
+                            'url'  => "yajra/autofill.events"
+                        ]
+
+                    ]
                 ],
             ],
         ],

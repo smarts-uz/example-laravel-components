@@ -98,6 +98,16 @@ return [
             /* autoFill */
             'https://cdn.datatables.net/autofill/2.6.0/css/autoFill.dataTables.min.css',
             'https://cdn.datatables.net/autofill/2.6.0/js/dataTables.autoFill.min.js',
+
+            /* Buttons */
+            'https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css',
+            'https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js',
+            'https://cdn.datatables.net/buttons/2.4.1/js/buttons.colVis.min.js',
+            'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js',
+            'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js',
+            'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js',
+            'https://cdn.datatables.net/buttons/2.4.1/js/buttons.print.min.js',
+            'https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js',
         ],
         'uppy' => [
             'https://releases.transloadit.com/uppy/v2.4.1/uppy.min.css',
