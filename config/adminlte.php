@@ -327,8 +327,8 @@ return [
                     'text' => 'AutoFill',
                     'submenu' => [
                         [
-                            'text' => 'Click focus',
-                            'url'  => "yajra/autofill.clickfocus"
+                            'text' => 'Fill plug-ins',
+                            'url'  => "yajra/autofill.fillplugins"
                         ],
 
                         [
