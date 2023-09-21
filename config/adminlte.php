@@ -332,8 +332,8 @@ return [
                         ],
 
                         [
-                        'text' => 'Event',
-                        'url'  => ""
+                            'text' => 'Events',
+                            'url'  => "yajra/autofill.events"
                         ]
 
                     ]
