@@ -93,11 +93,11 @@ return [
             'https://cdn.jsdelivr.net/npm/datatables.net-responsive@2.3.0/js/dataTables.responsive.min.js',
             'https://cdn.jsdelivr.net/gh/DataTables/Plugins@1.10.24/dataRender/datetime.js',
             'https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js',
-            'https://cdn.jsdelivr.net/gh/DataTables/Plugins@1.10.19/sorting/datetime-moment.js'
-        ],
-        'autoFill' => [
+            'https://cdn.jsdelivr.net/gh/DataTables/Plugins@1.10.19/sorting/datetime-moment.js',
+
+            /* autoFill */
             'https://cdn.datatables.net/autofill/2.6.0/css/autoFill.dataTables.min.css',
-            'https://cdn.datatables.net/autofill/2.6.0/js/dataTables.autoFill.min.js'
+            'https://cdn.datatables.net/autofill/2.6.0/js/dataTables.autoFill.min.js',
         ],
         'uppy' => [
             'https://releases.transloadit.com/uppy/v2.4.1/uppy.min.css',
