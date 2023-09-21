@@ -362,8 +362,8 @@ return [
                         ],
 
                         [
-                            'text' => 'Plug-ins',
-                            'url'  => "yajra/colreorder.plugins"
+                            'text' => 'Scrolling table',
+                            'url'  => "yajra/colreorder.scrollingtable"
                         ]
 
                     ]
