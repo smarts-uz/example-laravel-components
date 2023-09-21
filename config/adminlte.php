@@ -347,8 +347,8 @@ return [
                         ],
 
                         [
-                            'text' => 'Events',
-                            'url'  => "yajra/autofill.events"
+                            'text' => 'Plug-ins',
+                            'url'  => "yajra/buttons.plugins"
                         ]
 
                     ]
