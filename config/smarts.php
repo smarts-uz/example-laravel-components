@@ -108,6 +108,10 @@ return [
             'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js',
             'https://cdn.datatables.net/buttons/2.4.1/js/buttons.print.min.js',
             'https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js',
+
+            /* ColReorder */
+            'https://cdn.datatables.net/colreorder/1.7.0/css/colReorder.dataTables.min.css',
+            'https://cdn.datatables.net/colreorder/1.7.0/js/dataTables.colReorder.min.js',
         ],
         'uppy' => [
             'https://releases.transloadit.com/uppy/v2.4.1/uppy.min.css',

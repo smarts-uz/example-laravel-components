@@ -353,6 +353,21 @@ return [
 
                     ]
                 ],
+                [
+                    'text' => 'ColReorder',
+                    'submenu' => [
+                        [
+                            'text' => 'Individual column filtering',
+                            'url'  => "yajra/colreorder.individualcolumnfiltering"
+                        ],
+
+                        [
+                            'text' => 'Plug-ins',
+                            'url'  => "yajra/colreorder.plugins"
+                        ]
+
+                    ]
+                ],
             ],
         ],
         [
