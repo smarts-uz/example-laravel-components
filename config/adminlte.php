@@ -368,6 +368,21 @@ return [
 
                     ]
                 ],
+                [
+                    'text' => 'FixedColumns',
+                    'submenu' => [
+                        [
+                            'text' => 'Fluid column width',
+                            'url'  => "yajra/fixedcolumns.fluidcolumnwidth"
+                        ],
+
+                        [
+                            'text' => '12',
+                            'url'  => "yajra/fixedcolumns.12"
+                        ]
+
+                    ]
+                ],
             ],
         ],
         [

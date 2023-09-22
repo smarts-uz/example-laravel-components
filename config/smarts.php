@@ -112,6 +112,10 @@ return [
             /* ColReorder */
             'https://cdn.datatables.net/colreorder/1.7.0/css/colReorder.dataTables.min.css',
             'https://cdn.datatables.net/colreorder/1.7.0/js/dataTables.colReorder.min.js',
+
+            /* FixedColumns */
+            'https://cdn.datatables.net/fixedcolumns/4.3.0/js/dataTables.fixedColumns.min.js',
+            'https://cdn.datatables.net/fixedcolumns/4.3.0/css/fixedColumns.dataTables.min.css'
         ],
         'uppy' => [
             'https://releases.transloadit.com/uppy/v2.4.1/uppy.min.css',
