@@ -383,6 +383,21 @@ return [
 
                     ]
                 ],
+                [
+                    'text' => 'FixedHeader',
+                    'submenu' => [
+                        [
+                            'text' => 'Column filtering',
+                            'url'  => "yajra/fixedheader.columnfiltering"
+                        ],
+
+                        [
+                            'text' => 'Server-side processing',
+                            'url'  => "yajra/fixedheader.serversideprocessing"
+                        ]
+
+                    ]
+                ],
             ],
         ],
         [

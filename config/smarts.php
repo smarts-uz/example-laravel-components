@@ -115,7 +115,11 @@ return [
 
             /* FixedColumns */
             'https://cdn.datatables.net/fixedcolumns/4.3.0/js/dataTables.fixedColumns.min.js',
-            'https://cdn.datatables.net/fixedcolumns/4.3.0/css/fixedColumns.dataTables.min.css'
+            'https://cdn.datatables.net/fixedcolumns/4.3.0/css/fixedColumns.dataTables.min.css',
+
+            /* FixedHeader*/
+            'https://cdn.datatables.net/fixedheader/3.4.0/css/fixedHeader.dataTables.min.css',
+            'https://cdn.datatables.net/fixedheader/3.4.0/js/dataTables.fixedHeader.min.js',
         ],
         'uppy' => [
             'https://releases.transloadit.com/uppy/v2.4.1/uppy.min.css',
