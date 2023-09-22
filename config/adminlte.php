@@ -377,8 +377,8 @@ return [
                         ],
 
                         [
-                            'text' => '12',
-                            'url'  => "yajra/fixedcolumns.12"
+                            'text' => 'Server-side processing',
+                            'url'  => "yajra/fixedcolumns.serversideprocessing"
                         ]
 
                     ]
