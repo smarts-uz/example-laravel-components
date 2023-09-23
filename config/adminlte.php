@@ -406,10 +406,10 @@ return [
                             'url'  => "yajra/keytable.events"
                         ],
 
-//                        [
-//                            'text' => 'Enable / disable FixedHeader',
-//                            'url'  => "yajra/keytable.enable-disable"
-//                        ]
+                        [
+                            'text' => 'Server-side processing',
+                            'url'  => "yajra/keytable.serversideprocessing"
+                        ]
 
                     ]
                 ],
