@@ -413,6 +413,21 @@ return [
 
                     ]
                 ],
+                [
+                    'text' => 'Responsive',
+                    'submenu' => [
+                        [
+                            'text' => 'Bootstrap 5 modal',
+                            'url'  => "yajra/responsive.bootstrap5modal"
+                        ],
+
+                        [
+                            'text' => 'Server-side processing',
+                            'url'  => "yajra/responsive.serversideprocessing"
+                        ]
+
+                    ]
+                ],
             ],
         ],
         [

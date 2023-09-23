@@ -81,7 +81,6 @@ return [
         ],
         'yajra' => [
             'https://cdn.jsdelivr.net/npm/datatables.net-dt@1.13.6/css/jquery.dataTables.min.css',
-            'https://cdn.jsdelivr.net/npm/datatables.net-responsive-dt@2.3.0/css/responsive.dataTables.min.css',
             'https://cdn.jsdelivr.net/gh/DataTables/Dist-DataTables-SearchBuilder-DataTables@1.4.0/css/searchBuilder.dataTables.min.css',
             'https://cdn.jsdelivr.net/npm/datatables.net-datetime@1.2.0/dist/dataTables.dateTime.min.css',
             'https://cdn.jsdelivr.net/npm/datatables.net-fixedheader-dt@3.3.1/css/fixedHeader.dataTables.min.css',
@@ -90,7 +89,6 @@ return [
             'https://cdn.jsdelivr.net/npm/datatables.net@1.13.6/js/jquery.dataTables.min.js',
             'https://cdn.jsdelivr.net/npm/datatables.net-searchbuilder@1.4.0/js/dataTables.searchBuilder.min.js',
             'https://cdn.jsdelivr.net/npm/datatables.net-datetime@1.2.0/dist/dataTables.dateTime.min.js',
-            'https://cdn.jsdelivr.net/npm/datatables.net-responsive@2.3.0/js/dataTables.responsive.min.js',
             'https://cdn.jsdelivr.net/gh/DataTables/Plugins@1.10.24/dataRender/datetime.js',
             'https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js',
             'https://cdn.jsdelivr.net/gh/DataTables/Plugins@1.10.19/sorting/datetime-moment.js',
