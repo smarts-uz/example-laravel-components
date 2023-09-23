@@ -398,6 +398,21 @@ return [
 
                     ]
                 ],
+                [
+                    'text' => 'KeyTable',
+                    'submenu' => [
+                        [
+                            'text' => 'Events',
+                            'url'  => "yajra/keytable.events"
+                        ],
+
+//                        [
+//                            'text' => 'Enable / disable FixedHeader',
+//                            'url'  => "yajra/keytable.enable-disable"
+//                        ]
+
+                    ]
+                ],
             ],
         ],
         [

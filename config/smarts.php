@@ -120,6 +120,10 @@ return [
             /* FixedHeader*/
             'https://cdn.datatables.net/fixedheader/3.4.0/css/fixedHeader.dataTables.min.css',
             'https://cdn.datatables.net/fixedheader/3.4.0/js/dataTables.fixedHeader.min.js',
+
+            /* KeyTable */
+            'https://cdn.datatables.net/keytable/2.10.0/css/keyTable.dataTables.min.css',
+            'https://cdn.datatables.net/keytable/2.10.0/js/dataTables.keyTable.min.js',
         ],
         'uppy' => [
             'https://releases.transloadit.com/uppy/v2.4.1/uppy.min.css',
