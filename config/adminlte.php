@@ -392,8 +392,8 @@ return [
                         ],
 
                         [
-                            'text' => 'Server-side processing',
-                            'url'  => "yajra/fixedheader.serversideprocessing"
+                            'text' => 'Enable / disable FixedHeader',
+                            'url'  => "yajra/fixedheader.enable-disable"
                         ]
 
                     ]
