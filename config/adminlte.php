@@ -422,8 +422,8 @@ return [
                         ],
 
                         [
-                            'text' => 'Server-side processing',
-                            'url'  => "yajra/responsive.serversideprocessing"
+                            'text' => 'Custom child row renderer',
+                            'url'  => "yajra/responsive.customchildrowrenderer"
                         ]
 
                     ]

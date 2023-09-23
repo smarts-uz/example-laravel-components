@@ -122,6 +122,10 @@ return [
             /* KeyTable */
             'https://cdn.datatables.net/keytable/2.10.0/css/keyTable.dataTables.min.css',
             'https://cdn.datatables.net/keytable/2.10.0/js/dataTables.keyTable.min.js',
+
+            /* Responsive*/
+            'https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css',
+            'https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js',
         ],
         'uppy' => [
             'https://releases.transloadit.com/uppy/v2.4.1/uppy.min.css',
