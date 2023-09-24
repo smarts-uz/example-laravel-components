@@ -4,7 +4,7 @@
 @section('content_header')
 @stop
 @section('content')
-    <x-SmartsTable tableId="report" rowGroup="{dataSrc: 2}" :functions="['addCell' => ['parameters' => 'tr, content, colSpan = 1','value' => 'let td = document.createElement(`th`);
+    <x-SmartsTable tableId="report" rowGroup="{dataSrc: 'branch_id'}" :functions="['addCell' => ['parameters' => 'tr, content, colSpan = 1','value' => 'let td = document.createElement(`th`);
 
     td.colSpan = colSpan;
     td.textContent = content;
