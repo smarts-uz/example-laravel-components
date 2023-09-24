@@ -126,6 +126,10 @@ return [
             /* Responsive*/
             'https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css',
             'https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js',
+
+            /* RowGroup */
+            'https://cdn.datatables.net/rowgroup/1.4.0/css/rowGroup.dataTables.min.css',
+            'https://cdn.datatables.net/rowgroup/1.4.0/js/dataTables.rowGroup.min.js',
         ],
         'uppy' => [
             'https://releases.transloadit.com/uppy/v2.4.1/uppy.min.css',

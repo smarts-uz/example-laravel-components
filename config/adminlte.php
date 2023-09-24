@@ -428,6 +428,21 @@ return [
 
                     ]
                 ],
+                [
+                    'text' => 'RowGroup',
+                    'submenu' => [
+                        [
+                            'text' => 'Custom row rendering / aggregates',
+                            'url'  => "yajra/rowgroup.customrowrendering"
+                        ],
+
+//                        [
+//                            'text' => 'Custom child row renderer',
+//                            'url'  => "yajra/rowgroup.customchildrowrenderer"
+//                        ]
+
+                    ]
+                ],
             ],
         ],
         [

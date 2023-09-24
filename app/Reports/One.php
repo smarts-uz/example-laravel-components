@@ -92,6 +92,10 @@ class One extends DefaultValueBinder implements WithStyles, FromCollection, With
                     'rowspan' => 0,
                     'colspan' => 0,
                 ],
+                __('Role ID') => [
+                    'rowspan' => 0,
+                    'colspan' => 0,
+                ],
                 __('Email') => [
                     'rowspan' => 0,
                     'colspan' => 0,
@@ -110,6 +114,7 @@ class One extends DefaultValueBinder implements WithStyles, FromCollection, With
         return [
             ['data' => 'id', 'name' => 'id'],
             ['data' => 'name', 'name' => 'name'],
+            ['data' => 'role_id', 'name' => 'role_id'],
             ['data' => 'email', 'name' => 'email'],
         ];
     }
