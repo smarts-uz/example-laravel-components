@@ -436,10 +436,10 @@ return [
                             'url'  => "yajra/rowgroup.customrowrendering"
                         ],
 
-//                        [
-//                            'text' => 'Custom child row renderer',
-//                            'url'  => "yajra/rowgroup.customchildrowrenderer"
-//                        ]
+                        [
+                            'text' => 'Data source change event',
+                            'url'  => "yajra/rowgroup.datasourcechangeevent"
+                        ]
 
                     ]
                 ],
