@@ -512,6 +512,10 @@ return [
                             'text' => 'Checkbox selection',
                             'url'  => "yajra/select.checkboxselection"
                         ],
+                        [
+                            'text' => 'State Save',
+                            'url'  => "yajra/select.statesave"
+                        ],
                     ]
                 ],
             ],
