@@ -495,6 +495,10 @@ return [
                             'text' => 'Collapsed Panes',
                             'url'  => "yajra/searchpanes.collapsedpanes"
                         ],
+                        [
+                            'text' => 'SearchPanes Button Configuration',
+                            'url'  => "yajra/searchpanes.buttonsConfig"
+                        ],
                     ]
                 ],
             ],
