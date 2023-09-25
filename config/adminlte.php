@@ -482,6 +482,10 @@ return [
                             'text' => 'Plug-in Example',
                             'url'  => "yajra/searchBuilder.pluginexample"
                         ],
+                        [
+                            'text' => 'SearchBuilder Configuration using Buttons',
+                            'url'  => "yajra/searchBuilder.buttonOptions"
+                        ],
                     ]
                 ],
             ],
