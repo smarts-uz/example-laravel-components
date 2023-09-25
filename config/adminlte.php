@@ -478,6 +478,10 @@ return [
                             'text' => 'Custom Conditions',
                             'url'  => "yajra/searchBuilder.customconditions"
                         ],
+                        [
+                            'text' => 'Plug-in Example',
+                            'url'  => "yajra/searchBuilder.pluginexample"
+                        ],
                     ]
                 ],
             ],
