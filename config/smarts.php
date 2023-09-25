@@ -81,13 +81,11 @@ return [
         ],
         'yajra' => [
             'https://cdn.jsdelivr.net/npm/datatables.net-dt@1.13.6/css/jquery.dataTables.min.css',
-            'https://cdn.jsdelivr.net/gh/DataTables/Dist-DataTables-SearchBuilder-DataTables@1.4.0/css/searchBuilder.dataTables.min.css',
             'https://cdn.jsdelivr.net/npm/datatables.net-datetime@1.2.0/dist/dataTables.dateTime.min.css',
             'https://cdn.jsdelivr.net/npm/datatables.net-fixedheader-dt@3.3.1/css/fixedHeader.dataTables.min.css',
             'https://cdn.jsdelivr.net/npm/datatables.net-fixedheader-dt@3.3.1/js/fixedHeader.dataTables.min.js',
             'https://cdn.jsdelivr.net/gh/DataTables/Dist-DataTables-Buttons-DataTables@2.2.2/css/buttons.dataTables.min.css',
             'https://cdn.jsdelivr.net/npm/datatables.net@1.13.6/js/jquery.dataTables.min.js',
-            'https://cdn.jsdelivr.net/npm/datatables.net-searchbuilder@1.4.0/js/dataTables.searchBuilder.min.js',
             'https://cdn.jsdelivr.net/npm/datatables.net-datetime@1.2.0/dist/dataTables.dateTime.min.js',
             'https://cdn.jsdelivr.net/gh/DataTables/Plugins@1.10.24/dataRender/datetime.js',
             'https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js',
@@ -135,9 +133,13 @@ return [
             'https://cdn.datatables.net/rowreorder/1.4.1/css/rowReorder.dataTables.min.css',
             'https://cdn.datatables.net/rowreorder/1.4.1/js/dataTables.rowReorder.min.js',
 
-            /* Scroller*/
+            /* Scroller */
             'https://cdn.datatables.net/scroller/2.2.0/css/scroller.dataTables.min.css',
             'https://cdn.datatables.net/scroller/2.2.0/js/dataTables.scroller.min.js',
+
+            /* SearchBuilder */
+            'https://cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.dataTables.min.css',
+            'https://cdn.datatables.net/searchbuilder/1.5.0/js/dataTables.searchBuilder.min.js',
         ],
         'uppy' => [
             'https://releases.transloadit.com/uppy/v2.4.1/uppy.min.css',
