@@ -443,6 +443,21 @@ return [
 
                     ]
                 ],
+                [
+                    'text' => 'RowReorder',
+                    'submenu' => [
+                        [
+                            'text' => 'Full row selection',
+                            'url'  => "yajra/rowreorder.fullrowselection"
+                        ],
+
+                        [
+                            'text' => 'Data source change event',
+                            'url'  => "yajra/rowgroup.datasourcechangeevent"
+                        ]
+
+                    ]
+                ],
             ],
         ],
         [

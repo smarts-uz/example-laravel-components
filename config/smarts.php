@@ -130,6 +130,10 @@ return [
             /* RowGroup */
             'https://cdn.datatables.net/rowgroup/1.4.0/css/rowGroup.dataTables.min.css',
             'https://cdn.datatables.net/rowgroup/1.4.0/js/dataTables.rowGroup.min.js',
+
+            /* RowReorder */
+            'https://cdn.datatables.net/rowreorder/1.4.1/css/rowReorder.dataTables.min.css',
+            'https://cdn.datatables.net/rowreorder/1.4.1/js/dataTables.rowReorder.min.js',
         ],
         'uppy' => [
             'https://releases.transloadit.com/uppy/v2.4.1/uppy.min.css',
