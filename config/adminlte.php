@@ -525,6 +525,10 @@ return [
                             'text' => 'Custom Split Buttons',
                             'url'  => "yajra/staterestore.customsplitbuttons"
                         ],
+                        [
+                            'text' => 'Remove All Button',
+                            'url'  => "yajra/staterestore.removeallbutton"
+                        ],
                     ]
                 ],
             ],
