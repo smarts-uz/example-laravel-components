@@ -458,6 +458,15 @@ return [
 
                     ]
                 ],
+                [
+                    'text' => 'Scroller',
+                    'submenu' => [
+                        [
+                            'text' => 'Server-side processing',
+                            'url'  => "yajra/scroller.serversideprocessing"
+                        ],
+                    ]
+                ],
             ],
         ],
         [
