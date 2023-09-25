@@ -465,6 +465,10 @@ return [
                             'text' => 'Server-side processing',
                             'url'  => "yajra/scroller.serversideprocessing"
                         ],
+                        [
+                            'text' => 'State saving',
+                            'url'  => "yajra/scroller.statesaving"
+                        ],
                     ]
                 ],
             ],

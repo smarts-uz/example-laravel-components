@@ -134,6 +134,10 @@ return [
             /* RowReorder */
             'https://cdn.datatables.net/rowreorder/1.4.1/css/rowReorder.dataTables.min.css',
             'https://cdn.datatables.net/rowreorder/1.4.1/js/dataTables.rowReorder.min.js',
+
+            /* Scroller*/
+            'https://cdn.datatables.net/scroller/2.2.0/css/scroller.dataTables.min.css',
+            'https://cdn.datatables.net/scroller/2.2.0/js/dataTables.scroller.min.js',
         ],
         'uppy' => [
             'https://releases.transloadit.com/uppy/v2.4.1/uppy.min.css',
