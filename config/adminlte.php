@@ -488,6 +488,15 @@ return [
                         ],
                     ]
                 ],
+                [
+                    'text' => 'SearchPanes',
+                    'submenu' => [
+                        [
+                            'text' => 'Collapsed Panes',
+                            'url'  => "yajra/searchpanes.collapsedpanes"
+                        ],
+                    ]
+                ],
             ],
         ],
         [

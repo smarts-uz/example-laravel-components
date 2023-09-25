@@ -140,6 +140,12 @@ return [
             /* SearchBuilder */
             'https://cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.dataTables.min.css',
             'https://cdn.datatables.net/searchbuilder/1.5.0/js/dataTables.searchBuilder.min.js',
+
+            /* SearchPanes */
+            'https://cdn.datatables.net/searchpanes/2.2.0/css/searchPanes.dataTables.min.css',
+            'https://cdn.datatables.net/select/1.7.0/css/select.dataTables.min.css',
+            'https://cdn.datatables.net/searchpanes/2.2.0/js/dataTables.searchPanes.min.js',
+            'https://cdn.datatables.net/select/1.7.0/js/dataTables.select.min.js',
         ],
         'uppy' => [
             'https://releases.transloadit.com/uppy/v2.4.1/uppy.min.css',
