@@ -499,6 +499,10 @@ return [
                             'text' => 'SearchPanes Button Configuration',
                             'url'  => "yajra/searchpanes.buttonsConfig"
                         ],
+                        [
+                            'text' => 'Server-side processing',
+                            'url'  => "yajra/searchpanes.serversideprocessing"
+                        ],
                     ]
                 ],
             ],
