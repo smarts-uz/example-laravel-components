@@ -452,8 +452,8 @@ return [
                         ],
 
                         [
-                            'text' => 'Data source change event',
-                            'url'  => "yajra/rowgroup.datasourcechangeevent"
+                            'text' => 'Reorder event',
+                            'url'  => "yajra/rowreorder.reorderevent"
                         ]
 
                     ]
