@@ -505,6 +505,15 @@ return [
                         ],
                     ]
                 ],
+                [
+                    'text' => 'Select',
+                    'submenu' => [
+                        [
+                            'text' => 'Checkbox selection',
+                            'url'  => "yajra/select.checkboxselection"
+                        ],
+                    ]
+                ],
             ],
         ],
         [
