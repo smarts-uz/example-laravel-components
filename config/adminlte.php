@@ -518,6 +518,15 @@ return [
                         ],
                     ]
                 ],
+                [
+                    'text' => 'StateRestore',
+                    'submenu' => [
+                        [
+                            'text' => 'Custom Split Buttons',
+                            'url'  => "yajra/staterestore.customsplitbuttons"
+                        ],
+                    ]
+                ],
             ],
         ],
         [
