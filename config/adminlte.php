@@ -538,6 +538,10 @@ return [
                             'text' => 'Client-side validation',
                             'url'  => "editor/editor.clientvalidation"
                         ],
+                        [
+                            'text' => 'DataTable as a single select',
+                            'url'  => "editor/editor.select"
+                        ],
                     ]
                 ],
             ],

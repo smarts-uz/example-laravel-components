@@ -47,10 +47,7 @@ class UsersDataTable extends DataTable
                 'dom' => 'QBfrtip',
                 'serverSide' => 'true',
                 'order' => [1, 'asc'],
-                'select' => [
-                    'style' => 'os',
-                    'selector' => 'td:first-child',
-                ],
+                'select' => true,
                 'buttons' => [
                     ['extend' => 'create', 'editor' => 'editor'],
                     ['extend' => 'edit', 'editor' => 'editor'],
