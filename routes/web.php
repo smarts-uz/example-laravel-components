@@ -1,5 +1,6 @@
 <?php
 
+use App\DataTables\UsersDatatablesEditor;
 use App\Http\Controllers\EimzoController;
 use App\Http\Controllers\ReportController;
 use App\Http\Controllers\UppyController;
@@ -23,6 +24,8 @@ Route::controller(ReportController::class)->group(function() {
     Route::any('/report/export/{id}','report_export')->name('report_export');
 
 });
+Route::get('/editor/{name}', [App\Http\Controllers\ReportController::class, 'index'])->name('users.index');
+Route::post('/editor/{name}', [App\Http\Controllers\ReportController::class, 'store'])->name('users.store');
 Route::controller(UppyController::class)->group(function() {
     Route::get('/uppy', 'view')->name('uppy');
     Route::post('/uploadimage/update', 'uploadImage')->name('uploadImage');

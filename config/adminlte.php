@@ -531,6 +531,15 @@ return [
                         ],
                     ]
                 ],
+                [
+                    'text' => 'Editor',
+                    'submenu' => [
+                        [
+                            'text' => 'Client-side validation',
+                            'url'  => "editor/editor.clientvalidation"
+                        ],
+                    ]
+                ],
             ],
         ],
         [

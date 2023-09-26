@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\DataTables\Scopes\SearchBuilder;
+use App\DataTables\UsersDataTable;
+use App\DataTables\UsersDataTableEditor;
 use App\Services\ReportExportService;
 use App\Services\ReportService;
 use Exception;
@@ -21,7 +24,15 @@ class ReportController extends Controller
         $this->exportService = $exportService;
         $this->service = $service;
     }
+    public function index(UsersDataTable $dataTable,$name)
+    {
+        return $dataTable->addScope(new SearchBuilder)->render((string)$name);
+    }
 
+    public function store(UsersDataTableEditor $editor)
+    {
+        return $editor->process(request());
+    }
     /**
      * @return View
      */
