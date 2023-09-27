@@ -51,6 +51,14 @@ class UsersDataTable extends DataTable
                 'buttons' => [
                     ['extend' => 'create', 'editor' => 'editor'],
                     ['extend' => 'edit', 'editor' => 'editor'],
+                    ['extend' => 'selected','text' => 'Duplicate','action' => 'function (e, dt, node, config) {
+                editor
+                    .edit(this.row({ selected: true }).indexes(), {
+                        title: `Duplicate record`,
+                        buttons: `Create from existing`
+                    })
+                    .mode(`create`);
+            }', 'editor' => 'editor'],
                     ['extend' => 'remove', 'editor' => 'editor'],
                 ]
             ]);
