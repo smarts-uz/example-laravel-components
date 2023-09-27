@@ -17,9 +17,8 @@ class UsersDataTableEditor extends DataTablesEditor
     public function createRules(): array
     {
         return [
-            'email' => 'required|email|max:255|unique:'.$this->resolveModel()->getTable(),
             'name' => 'required|max:255',
-            'password' => 'required||max:255',
+            'email' => 'required|email|max:255|unique:'.$this->resolveModel()->getTable(),
         ];
     }
 
@@ -29,9 +28,8 @@ class UsersDataTableEditor extends DataTablesEditor
     public function editRules(Model $model): array
     {
         return [
-            'email' => 'sometimes|required|max:255|email|'.Rule::unique($model->getTable())->ignore($model->getKey()),
             'name' => 'sometimes|required|max:255',
-            'password' => 'sometimes|required|max:255',
+            'email' => 'sometimes|required|max:255|email|'.Rule::unique($model->getTable())->ignore($model->getKey()),
         ];
     }
 
@@ -53,7 +51,6 @@ class UsersDataTableEditor extends DataTablesEditor
         if (! empty(data_get($data, 'password'))) {
             data_set($data, 'password', bcrypt($data['password']));
         }
-
         return $data;
     }
 
@@ -93,7 +90,6 @@ class UsersDataTableEditor extends DataTablesEditor
         } else {
             $data['password'] = bcrypt($data['password']);
         }
-
         return $data;
     }
 }

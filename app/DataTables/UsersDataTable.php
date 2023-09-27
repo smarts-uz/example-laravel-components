@@ -31,7 +31,7 @@ class UsersDataTable extends DataTable
      */
     public function query(User $model)
     {
-        return $model->newQuery()->select('id', 'name', 'email');
+        return $model->newQuery()->select('id', 'name', 'email','updated_at');
     }
     /**
      * Optional method if you want to use html builder.
@@ -75,6 +75,7 @@ class UsersDataTable extends DataTable
             'id',
             'name',
             'email',
+            'updated_at',
         ];
     }
 
