@@ -61,7 +61,6 @@
                 type: 'select',
                 options: ['Simple', 'All'],
                 def: 'Simple',
-                orderable: false,
             },
             {label: "Email:", name: "email"},
             {
