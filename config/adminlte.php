@@ -542,6 +542,10 @@ return [
                             'text' => 'DataTable as a single select',
                             'url'  => "editor/editor.select"
                         ],
+                        [
+                            'text' => 'Date and time input',
+                            'url'  => "editor/editor.datetime"
+                        ],
                     ]
                 ],
             ],
