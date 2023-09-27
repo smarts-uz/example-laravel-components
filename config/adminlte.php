@@ -546,6 +546,10 @@ return [
                             'text' => 'Date and time input',
                             'url'  => "editor/editor.datetime"
                         ],
+                        [
+                            'text' => 'Dependent fields',
+                            'url'  => "editor/editor.dependentFields"
+                        ],
                     ]
                 ],
             ],
