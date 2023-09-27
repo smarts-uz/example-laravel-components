@@ -558,6 +558,10 @@ return [
                             'text' => 'Editing options - submit on blur',
                             'url'  => "editor/editor.options"
                         ],
+                        [
+                            'text' => 'File upload (many)',
+                            'url'  => "editor/editor.upload-many"
+                        ],
                     ]
                 ],
             ],
