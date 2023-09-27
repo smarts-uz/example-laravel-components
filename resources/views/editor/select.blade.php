@@ -37,7 +37,7 @@
         });
         var editor = new $.fn.dataTable.Editor({
             ajax: {
-                url: "/users",
+                url: "/post",
                 type: "POST"
             },
             buttons: [
@@ -50,7 +50,6 @@
             fields: [
                 {label: "Name:", name: "name"},
                 {label: "Email:", name: "email"},
-                {label: "Password:", name: "password", type: "password"}
             ]
         });
 
