@@ -566,6 +566,10 @@ return [
                             'text' => 'In table form controls',
                             'url'  => "editor/editor.inTableControls"
                         ],
+                        [
+                            'text' => 'Join tables - self referencing join',
+                            'url'  => "editor/editor.joinSelf"
+                        ],
                     ]
                 ],
             ],
