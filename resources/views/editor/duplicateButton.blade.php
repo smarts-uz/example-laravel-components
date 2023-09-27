@@ -55,6 +55,7 @@
         table: "#users",
         fields: [
             {label: "Name:", name: "name"},
+            {label: "Password:", name: "password"},
             {
                 label: 'Show options:',
                 name: 'options',
@@ -87,7 +88,7 @@
     $('#users').on('click', 'tbody td:not(:first-child)', function (e) {
         editor.inline(this);
     });
-    {{$dataTable->generateScripts()}}
+    var table = {{$dataTable->generateScripts()}};
 </script>
 </body>
 </html>

@@ -550,6 +550,10 @@ return [
                             'text' => 'Dependent fields',
                             'url'  => "editor/editor.dependentFields"
                         ],
+                        [
+                            'text' => 'Duplicate button',
+                            'url'  => "editor/editor.duplicateButton"
+                        ],
                     ]
                 ],
             ],
