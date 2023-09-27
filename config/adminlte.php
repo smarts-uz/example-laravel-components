@@ -554,6 +554,10 @@ return [
                             'text' => 'Duplicate button',
                             'url'  => "editor/editor.duplicateButton"
                         ],
+                        [
+                            'text' => 'Editing options - submit on blur',
+                            'url'  => "editor/editor.options"
+                        ],
                     ]
                 ],
             ],
