@@ -562,6 +562,10 @@ return [
                             'text' => 'File upload (many)',
                             'url'  => "editor/editor.upload-many"
                         ],
+                        [
+                            'text' => 'In table form controls',
+                            'url'  => "editor/editor.inTableControls"
+                        ],
                     ]
                 ],
             ],

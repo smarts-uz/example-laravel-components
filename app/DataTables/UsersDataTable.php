@@ -84,6 +84,18 @@ class UsersDataTable extends DataTable
             'name',
             'email',
             'updated_at',
+            [
+                'data' => null,
+                'className' => 'dt-center editor-edit',
+                'defaultContent' => '<i class="fa fa-pencil"/>',
+                'orderable' => false
+            ],
+            [
+                'data' => null,
+                'className' => 'dt-center editor-delete',
+                'defaultContent' => '<i class="fa fa-trash"/>',
+                'orderable' => false,
+            ],
         ];
     }
 
