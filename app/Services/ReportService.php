@@ -3,6 +3,7 @@
 
 namespace App\Services;
 
+use App\Models\Branch;
 use App\Models\User;
 use Exception;
 use Illuminate\Http\JsonResponse;
@@ -27,6 +28,18 @@ class ReportService
             ->addColumn('DT_RowData', function($data){
                 return 'row_'.$data->id;
             })
+            ->make();
+    }
+    /**
+     * Get All Branch
+     *
+     * @return JsonResponse
+     * @throws Exception
+     */
+    public function getBranch(): JsonResponse
+    {
+        $query = Branch::query();
+        return Datatables::of($query)
             ->make();
     }
 }

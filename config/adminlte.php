@@ -574,6 +574,10 @@ return [
                             'text' => 'Multi-item editing (rows, columns, cells)',
                             'url'  => "editor/editor.multiItem"
                         ],
+                        [
+                            'text' => 'Nested editing',
+                            'url'  => "editor/editor.nested"
+                        ],
                     ]
                 ],
             ],

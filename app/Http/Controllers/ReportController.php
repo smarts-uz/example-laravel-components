@@ -51,6 +51,15 @@ class ReportController extends Controller
 
     }
     /**
+     * @return JsonResponse
+     * @throws Exception
+     */
+    public function getBranch(): JsonResponse
+    {
+        return $this->service->getBranch();
+
+    }
+    /**
      * Report Export
      *
      * @param $model
