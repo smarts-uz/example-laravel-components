@@ -578,6 +578,10 @@ return [
                             'text' => 'Nested editing',
                             'url'  => "editor/editor.nested"
                         ],
+                        [
+                            'text' => 'REST interface',
+                            'url'  => "editor/editor.REST"
+                        ],
                     ]
                 ],
             ],
