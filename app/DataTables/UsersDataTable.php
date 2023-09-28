@@ -60,6 +60,10 @@ class UsersDataTable extends DataTable
                     .mode(`create`);
             }', 'editor' => 'editor'],
                     ['extend' => 'remove', 'editor' => 'editor'],
+                    ['selectRows'],
+                    ['selectColumns'],
+                    ['selectCells'],
+                    ['selectNone'],
                 ]
             ]);
     }

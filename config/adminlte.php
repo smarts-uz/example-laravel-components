@@ -570,6 +570,10 @@ return [
                             'text' => 'Join tables - self referencing join',
                             'url'  => "editor/editor.joinSelf"
                         ],
+                        [
+                            'text' => 'Multi-item editing (rows, columns, cells)',
+                            'url'  => "editor/editor.multiItem"
+                        ],
                     ]
                 ],
             ],
