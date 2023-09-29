@@ -582,6 +582,10 @@ return [
                             'text' => 'REST interface',
                             'url'  => "editor/editor.REST"
                         ],
+                        [
+                            'text' => 'Whole row - icon controls',
+                            'url'  => "editor/editor.fullRow"
+                        ],
                     ]
                 ],
             ],

@@ -90,7 +90,7 @@ class UsersDataTable extends DataTable
             'updated_at',
             [
                 'data' => null,
-                'className' => 'dt-center editor-edit',
+                'className' => 'dt-center editor-edit row-edit',
                 'defaultContent' => '<i class="fa fa-pencil"/>',
                 'orderable' => false
             ],
