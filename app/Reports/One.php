@@ -96,6 +96,10 @@ class One extends DefaultValueBinder implements WithStyles, FromCollection, With
                     'rowspan' => 0,
                     'colspan' => 0,
                 ],
+                __('Updated At') => [
+                    'rowspan' => 0,
+                    'colspan' => 0,
+                ],
             ],
         ];
     }
@@ -111,6 +115,7 @@ class One extends DefaultValueBinder implements WithStyles, FromCollection, With
             ['data' => 'id', 'name' => 'id'],
             ['data' => 'name', 'name' => 'name'],
             ['data' => 'email', 'name' => 'email'],
+            ['data' => 'updated_at', 'name' => 'updated_at'],
         ];
     }
 
