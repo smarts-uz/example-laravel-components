@@ -1,5 +1,5 @@
 @extends('adminlte::page')
-
+{{-- https://datatables.net/extensions/buttons/examples/initialisation/plugins.html --}}
 @section('title', 'Example App')
 @section('content_header')
 @stop
