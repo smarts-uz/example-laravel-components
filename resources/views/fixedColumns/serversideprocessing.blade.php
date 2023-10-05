@@ -1,5 +1,5 @@
 @extends('adminlte::page')
-
+{{-- https://datatables.net/extensions/fixedcolumns/examples/initialisation/server-side-processing.html --}}
 @section('title', 'Example App')
 @section('content_header')
 @stop
