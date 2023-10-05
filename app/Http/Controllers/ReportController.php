@@ -13,6 +13,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Illuminate\View\View;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Yajra\DataTables\DataTablesEditorException;
 
 class ReportController extends Controller
 {
@@ -25,13 +26,22 @@ class ReportController extends Controller
         $this->service = $service;
     }
 
+    /**
+     * Editor Update Process
+     *
+     * @param UsersDataTableEditor $editor
+     * @return JsonResponse|mixed
+     * @throws DataTablesEditorException
+     */
     public function store(UsersDataTableEditor $editor)
     {
         $process = $editor->process(request());
         Log::info('ReportControllerStore',['request' => request(),'process' => $process]);
         return $process;
     }
+
     /**
+     * @param $name
      * @return View
      */
     public function view($name): View
@@ -39,6 +49,7 @@ class ReportController extends Controller
         Log::info('ReportControllerView',['blade' => $name]);
         return view($name);
     }
+
     /**
      * @return JsonResponse
      * @throws Exception
