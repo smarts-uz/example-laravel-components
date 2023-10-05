@@ -1,5 +1,5 @@
 @extends('adminlte::page')
-
+{{-- https://datatables.net/extensions/colreorder/examples/initialisation/col_filter.html --}}
 @section('title', 'Example App')
 @section('content_header')
 @stop
