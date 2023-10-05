@@ -7,6 +7,9 @@ use Illuminate\View\View;
 
 class EimzoController extends Controller
 {
+    /**
+     * @return View
+     */
     public function view() : View
     {
         Log::info('EimzoControllerView',['blade' => 'eimzologin']);
