@@ -24,7 +24,7 @@ Route::controller(ReportController::class)->group(function() {
     Route::any('/report/export/{id}','report_export')->name('report_export');
 
 });
-Route::get('/editor/{name}', [App\Http\Controllers\ReportController::class, 'index'])->name('users.index');
+Route::get('/editor/{name}', [App\Http\Controllers\ReportController::class, 'view'])->name('users.index');
 Route::get('/get/branch', [App\Http\Controllers\ReportController::class, 'getBranch'])->name('branch');
 Route::post('/post', [App\Http\Controllers\ReportController::class, 'store'])->name('users.store');
 Route::controller(UppyController::class)->group(function() {

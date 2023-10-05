@@ -24,10 +24,6 @@ class ReportController extends Controller
         $this->exportService = $exportService;
         $this->service = $service;
     }
-    public function index(UsersDataTable $dataTable,$name)
-    {
-        return $dataTable->addScope(new SearchBuilder)->render((string)$name);
-    }
 
     public function store(UsersDataTableEditor $editor)
     {
