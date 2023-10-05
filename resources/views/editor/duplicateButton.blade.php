@@ -27,7 +27,7 @@
                         extend: 'selected',
                         text: 'Duplicate',
                         action: function (e, dt, node, config) {
-                            editor.edit(table.rows({ selected: true }).indexes(), {
+                            editor.edit(users.rows({ selected: true }).indexes(), {
                                     title: 'Duplicate record',
                                     buttons: 'Create from existing'
                                 }).mode('create');
