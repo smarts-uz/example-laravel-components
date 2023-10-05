@@ -31,14 +31,16 @@ class ReportController extends Controller
 
     public function store(UsersDataTableEditor $editor)
     {
-        return $editor->process(request());
+        $process = $editor->process(request());
+        Log::info('ReportControllerStore',['request' => request(),'process' => $process]);
+        return $process;
     }
     /**
      * @return View
      */
     public function view($name): View
     {
-        //Log::info('View',['blade' => $name]);
+        Log::info('ReportControllerView',['blade' => $name]);
         return view($name);
     }
     /**
@@ -68,6 +70,7 @@ class ReportController extends Controller
      */
     public function report_export($model, Request $request): BinaryFileResponse
     {
+        Log::info('ReportControllerExport',['request' => $request,'model' => $model]);
         return $this->exportService->export($model, $request);
     }
 }
