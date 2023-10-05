@@ -1,5 +1,5 @@
 @extends('adminlte::page')
-
+{{-- https://datatables.net/extensions/responsive/examples/child-rows/custom-renderer.html --}}
 @section('title', 'Example App')
 @section('content_header')
 @stop

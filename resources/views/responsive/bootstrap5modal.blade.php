@@ -1,5 +1,5 @@
 @extends('adminlte::page')
-
+{{-- https://datatables.net/extensions/responsive/examples/display-types/bootstrap5-modal.html --}}
 @section('title', 'Example App')
 @section('content_header')
 @stop
