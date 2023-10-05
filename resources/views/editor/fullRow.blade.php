@@ -25,7 +25,7 @@
                     { extend: 'remove', editor: editor }
                 ]";
         $eventClickValue = "'tbody td.editor-edit', function (e) {
-editor.inline(table.cells(this.parentNode, '*').nodes());
+editor.inline(users.cells(this.parentNode, '*').nodes());
 }";
     @endphp
     <x-SmartsTable tableId="users" select="true" tableControlers="true" :events="['click' => $eventClickValue]" :options="['buttons' => $buttons]" getData="{{ route('report') }}" exportId="{{\App\Reports\One::class}}" startDate="{{request()->input('startDate')}}" endDate="{{request()->input('endDate')}}"></x-SmartsTable>
