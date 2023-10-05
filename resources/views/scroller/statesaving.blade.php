@@ -1,5 +1,5 @@
 @extends('adminlte::page')
-
+{{-- https://datatables.net/extensions/scroller/examples/initialisation/state_saving.html --}}
 @section('title', 'Example App')
 @section('content_header')
 @stop
