@@ -1,5 +1,5 @@
 @extends('adminlte::page')
-
+{{-- https://datatables.net/extensions/searchpanes/serverside --}}
 @section('title', 'Example App')
 @section('content_header')
 @stop
