@@ -20,10 +20,10 @@ class ReportController extends Controller
     private ReportExportService $exportService;
     private ReportService $service;
 
-    public function __construct(ReportExportService $exportService, ReportService $service)
+    public function __construct()
     {
-        $this->exportService = $exportService;
-        $this->service = $service;
+        $this->exportService = new ReportExportService();
+        $this->service = new ReportService();
     }
 
     /**
