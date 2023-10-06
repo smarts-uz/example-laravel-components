@@ -13,9 +13,9 @@ class UppyController extends Controller
 {
     private UppyService $service;
 
-    public function __construct(UppyService $service)
+    public function __construct()
     {
-        $this->service = $service;
+        $this->service = new UppyService();
     }
 
     /**
