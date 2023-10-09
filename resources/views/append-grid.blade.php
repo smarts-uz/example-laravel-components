@@ -13,6 +13,7 @@
 ];
         @endphp
         <x-append-grid id="table" :columns="$columns"></x-append-grid>
+        <x-append-grid id="table1" :columns="$columns"></x-append-grid>
     </div>
 @stop
 @section('css')
