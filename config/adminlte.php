@@ -604,6 +604,11 @@ return [
             'url' => '/eimzo',
             'icon_color' => 'cyan',
         ],
+        [
+            'text' => 'AppendGrid',
+            'url' => '/append-grid',
+            'icon_color' => 'cyan',
+        ],
         //['header' => 'labels'],
         //[
         //    'text'       => 'important',
