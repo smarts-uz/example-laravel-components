@@ -16,6 +16,7 @@ return [
     */
 
     'components' => [
+        'append-grid' => Components\Select\AppendGrid::class,
         'smarts_eimzo_login' => Components\SmartsEimzo\SmartsEimzoLogin::class,
         'smarts_eimzo_login_update_button' => Components\SmartsEimzo\SmartsEimzoUpdateButton::class,
         'smarts_eimzo_login_sign_button' => Components\SmartsEimzo\SmartsEimzoSignButton::class,
@@ -66,6 +67,11 @@ return [
     */
 
     'assets' => [
+        'append-grid' => [
+            'https://cdn.jsdelivr.net/npm/jquery.appendgrid@2.1.1/dist/AppendGrid.min.js',
+            'https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css'
+        ],
+
         'eimzo_login' => [
             "vendor/eimzo/assets/js/eimzo/e-imzo.js",
             "vendor/eimzo/assets/js/eimzo/e-imzo-client.js",
