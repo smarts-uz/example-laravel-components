@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AppendGridController;
 use App\Http\Controllers\EimzoController;
 use App\Http\Controllers\ReportController;
 use App\Http\Controllers\UppyController;
@@ -27,9 +28,7 @@ Route::controller(ReportController::class)->group(function() {
 Route::get('/editor/{name}', [App\Http\Controllers\ReportController::class, 'view'])->name('users.index');
 Route::get('/get/branch', [App\Http\Controllers\ReportController::class, 'getBranch'])->name('branch');
 Route::post('/post', [App\Http\Controllers\ReportController::class, 'store'])->name('users.store');
-Route::get('/append-grid', function(){
-    return view('appendgrid');
-})->name('1');
+Route::get('/append-grid', [AppendGridController::class,'view'])->name('append-grid');
 Route::controller(UppyController::class)->group(function() {
     Route::get('/uppy', 'view')->name('uppy');
     Route::post('/uploadimage/update', 'uploadImage')->name('uploadImage');
