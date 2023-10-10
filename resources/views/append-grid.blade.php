@@ -11,9 +11,16 @@
                 ['name' => 'name', 'type' => 'text', 'display' => 'name'],
                 ['name' => 'name1', 'type' => 'text', 'display' => 'name1'],
 ];
+            $options = [
+                'initData' => '[
+        { name: "Foo Data 1", name1: "Bar Data 1" },
+        { name: "Foo Data 2", name1: "Bar Data 2" },
+        { name: "Foo Data 3", name1: "Bar Data 3" }
+    ]'
+]
         @endphp
-        <x-append-grid id="table" :columns="$columns"></x-append-grid>
-        <x-append-grid id="table1" :columns="$columns"></x-append-grid>
+        <x-append-grid id="table" :columns="$columns" :options="$options"></x-append-grid>
+        <x-append-grid id="table1" :columns="$columns" :options="$options"></x-append-grid>
     </div>
 @stop
 @section('css')
