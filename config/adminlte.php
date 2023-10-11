@@ -609,6 +609,10 @@ return [
                     'text' => 'OneDrive',
                     'url'  => "/uppy/OneDrive.example"
                 ],
+                [
+                    'text' => 'Box',
+                    'url'  => "/uppy/Box.example"
+                ],
             ]
         ],
         [
