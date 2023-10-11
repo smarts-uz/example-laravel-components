@@ -30,7 +30,7 @@ Route::get('/get/branch', [App\Http\Controllers\ReportController::class, 'getBra
 Route::post('/post', [App\Http\Controllers\ReportController::class, 'store'])->name('users.store');
 Route::get('/append-grid', [AppendGridController::class,'view'])->name('append-grid');
 Route::controller(UppyController::class)->group(function() {
-    Route::get('/uppy', 'view')->name('uppy');
+    Route::get('/uppy/{name}', 'view')->name('uppy');
     Route::post('/uploadimage/update', 'uploadImage')->name('uploadImage');
 });
 Route::controller(EimzoController::class)->group(function() {

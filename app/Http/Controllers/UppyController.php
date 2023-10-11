@@ -19,12 +19,13 @@ class UppyController extends Controller
     }
 
     /**
+     * @param $name
      * @return Factory|View|Application
      */
-    public function view(): Factory|View|Application
+    public function view($name): Factory|View|Application
     {
         Log::info('UppyControllerView',['blade' => 'uppy']);
-        return view('uppy');
+        return view($name);
     }
     /**
      * Image Upload

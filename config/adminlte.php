@@ -596,8 +596,12 @@ return [
         ],
         [
             'text' => 'Uppy',
-            'url' => '/uppy',
-            'icon_color' => 'cyan',
+            'submenu' => [
+                [
+                    'text' => 'Google Drive',
+                    'url'  => "/uppy/GoogleDrive.example"
+                ],
+            ]
         ],
         [
             'text' => 'Eimzo',
