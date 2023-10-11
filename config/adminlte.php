@@ -601,6 +601,10 @@ return [
                     'text' => 'Google Drive',
                     'url'  => "/uppy/GoogleDrive.example"
                 ],
+                [
+                    'text' => 'Instagram',
+                    'url'  => "/uppy/Instagram.example"
+                ],
             ]
         ],
         [
