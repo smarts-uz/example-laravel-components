@@ -613,6 +613,10 @@ return [
                     'text' => 'Box',
                     'url'  => "/uppy/Box.example"
                 ],
+                [
+                    'text' => 'Dropbox',
+                    'url'  => "/uppy/Dropbox.example"
+                ],
             ]
         ],
         [
