@@ -617,6 +617,10 @@ return [
                     'text' => 'Dropbox',
                     'url'  => "/uppy/Dropbox.example"
                 ],
+                [
+                    'text' => 'Import from Url',
+                    'url'  => "/uppy/Url.example"
+                ],
             ]
         ],
         [
