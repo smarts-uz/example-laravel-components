@@ -621,6 +621,10 @@ return [
                     'text' => 'Import from Url',
                     'url'  => "/uppy/Url.example"
                 ],
+                [
+                    'text' => 'Unsplash',
+                    'url'  => "/uppy/Unsplash.example"
+                ],
             ]
         ],
         [
