@@ -596,6 +596,7 @@ return [
         ],
         [
             'text' => 'Uppy',
+            'icon_color' => 'cyan',
             'submenu' => [
                 [
                     'text' => 'Google Drive',
@@ -634,8 +635,13 @@ return [
         ],
         [
             'text' => 'AppendGrid',
-            'url' => '/append-grid',
             'icon_color' => 'cyan',
+            'submenu' => [
+                [
+                    'text' => 'Basic Bootstrap 5',
+                    'url'  => "/append-grid/basic.basicbootstrap5"
+                ]
+            ]
         ],
         //['header' => 'labels'],
         //[
