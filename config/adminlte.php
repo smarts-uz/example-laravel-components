@@ -644,6 +644,10 @@ return [
                 [
                     'text' => 'Manipulation',
                     'url'  => "/append-grid/basic.manipulation"
+                ],
+                [
+                    'text' => 'Icon',
+                    'url'  => "/append-grid/basic.icon"
                 ]
             ]
         ],
