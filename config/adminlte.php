@@ -640,6 +640,10 @@ return [
                 [
                     'text' => 'Basic Bootstrap 5',
                     'url'  => "/append-grid/basic.basicbootstrap5"
+                ],
+                [
+                    'text' => 'Manipulation',
+                    'url'  => "/append-grid/basic.manipulation"
                 ]
             ]
         ],
