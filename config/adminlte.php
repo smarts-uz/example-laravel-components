@@ -660,6 +660,10 @@ return [
                 [
                     'text' => 'Events',
                     'url'  => "/append-grid/basic.events"
+                ],
+                [
+                    'text' => 'Grid Callback',
+                    'url'  => "/append-grid/basic.callback"
                 ]
             ]
         ],
