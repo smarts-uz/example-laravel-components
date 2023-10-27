@@ -656,6 +656,10 @@ return [
                 [
                     'text' => 'ReadonlyColumn',
                     'url'  => "/append-grid/basic.readonlycolumn"
+                ],
+                [
+                    'text' => 'Events',
+                    'url'  => "/append-grid/basic.events"
                 ]
             ]
         ],
