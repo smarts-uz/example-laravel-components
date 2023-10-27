@@ -8,8 +8,8 @@
     <div class="container-fluid">
         @php
             $columns = [
-                ['name' => 'name', 'type' => 'text', 'display' => 'name','displayClass' => 'bg-success'],
-                ['name' => 'name1', 'type' => 'text', 'display' => 'name1','displayClass' => 'bg-primary'],
+                ['name' => '"name"', 'type' => '"text"', 'display' => '"name"','displayClass' => '"bg-success"'],
+                ['name' => '"name1"', 'type' => '"text"', 'display' => '"name1"','displayClass' => '"bg-primary"'],
 ];
             $options = [
                 'initData' => '[
