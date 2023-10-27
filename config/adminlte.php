@@ -652,6 +652,10 @@ return [
                 [
                     'text' => 'Style',
                     'url'  => "/append-grid/basic.style"
+                ],
+                [
+                    'text' => 'ReadonlyColumn',
+                    'url'  => "/append-grid/basic.readonlycolumn"
                 ]
             ]
         ],
