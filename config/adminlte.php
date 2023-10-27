@@ -664,6 +664,10 @@ return [
                 [
                     'text' => 'Grid Callback',
                     'url'  => "/append-grid/basic.callback"
+                ],
+                [
+                    'text' => 'Validation',
+                    'url'  => "/append-grid/basic.validation"
                 ]
             ]
         ],
