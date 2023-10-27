@@ -648,6 +648,10 @@ return [
                 [
                     'text' => 'Icon',
                     'url'  => "/append-grid/basic.icon"
+                ],
+                [
+                    'text' => 'Style',
+                    'url'  => "/append-grid/basic.style"
                 ]
             ]
         ],
