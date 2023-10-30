@@ -29,22 +29,7 @@
       IntColumn: "123",
       DateColumn: "2019-05-01"
     }
-    ]',
-                'afterRowAppended' => 'function(caller, parentIndex, addedRows) {
-    $("#dataForm")
-      .parsley()
-      .refresh();
-  }',
-                'afterRowInserted' => 'function(caller, parentIndex, addedRows) {
-    $("#dataForm")
-      .parsley()
-      .refresh();
-  }',
-                'afterRowRemoved' => 'function(caller, rowIndex) {
-    $("#dataForm")
-      .parsley()
-      .refresh();
-  }'
+    ]'
 ]
         @endphp
         <form id="dataForm" action="">
