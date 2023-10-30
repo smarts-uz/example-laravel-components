@@ -21,8 +21,8 @@
         @endphp
         <script src="https://cdn.jsdelivr.net/npm/floatthead@2.2.1/dist/jquery.floatThead.min.js"></script>
 
-        <x-append-grid id="table" :columns="$columns" :options="$options"></x-append-grid>
-        <x-append-grid id="table1" :columns="$columns" :options="$options"></x-append-grid>
+        <x-append-grid id="table" :columns="$columns" :options="$options" fixedHeader="true"></x-append-grid>
+        <x-append-grid id="table1" :columns="$columns" :options="$options" fixedHeader="true"></x-append-grid>
     </div>
 @stop
 @section('css')
