@@ -668,6 +668,14 @@ return [
                 [
                     'text' => 'Validation',
                     'url'  => "/append-grid/basic.validation"
+                ],
+                [
+                    'text' => 'Fixed Header',
+                    'url'  => "/append-grid/basic.fixedheader"
+                ],
+                [
+                    'text' => 'Custom Type',
+                    'url'  => "/append-grid/basic.customtype"
                 ]
             ]
         ],
