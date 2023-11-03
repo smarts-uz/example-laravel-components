@@ -639,43 +639,43 @@ return [
             'submenu' => [
                 [
                     'text' => 'Basic Bootstrap 5',
-                    'url'  => "/append-grid/basic.basicbootstrap5"
+                    'url'  => "/append-grid/append-grid.basic.basicbootstrap5"
                 ],
                 [
                     'text' => 'Manipulation',
-                    'url'  => "/append-grid/basic.manipulation"
+                    'url'  => "/append-grid/append-grid.basic.manipulation"
                 ],
                 [
                     'text' => 'Icon',
-                    'url'  => "/append-grid/basic.icon"
+                    'url'  => "/append-grid/append-grid.basic.icon"
                 ],
                 [
                     'text' => 'Style',
-                    'url'  => "/append-grid/basic.style"
+                    'url'  => "/append-grid/append-grid.basic.style"
                 ],
                 [
                     'text' => 'ReadonlyColumn',
-                    'url'  => "/append-grid/basic.readonlycolumn"
+                    'url'  => "/append-grid/append-grid.basic.readonlycolumn"
                 ],
                 [
                     'text' => 'Events',
-                    'url'  => "/append-grid/basic.events"
+                    'url'  => "/append-grid/append-grid.basic.events"
                 ],
                 [
                     'text' => 'Grid Callback',
-                    'url'  => "/append-grid/basic.callback"
+                    'url'  => "/append-grid/append-grid.basic.callback"
                 ],
                 [
                     'text' => 'Validation',
-                    'url'  => "/append-grid/basic.validation"
+                    'url'  => "/append-grid/append-grid.basic.validation"
                 ],
                 [
                     'text' => 'Fixed Header',
-                    'url'  => "/append-grid/basic.fixedheader"
+                    'url'  => "/append-grid/append-grid.basic.fixedheader"
                 ],
                 [
                     'text' => 'Custom Type',
-                    'url'  => "/append-grid/basic.customtype"
+                    'url'  => "/append-grid/append-grid.basic.customtype"
                 ]
             ]
         ],
