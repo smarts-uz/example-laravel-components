@@ -328,12 +328,12 @@ return [
                     'submenu' => [
                         [
                             'text' => 'Fill plug-ins',
-                            'url'  => "yajra/autofill.fillplugins"
+                            'url'  => "yajra/datatables.autofill.fillplugins"
                         ],
 
                         [
                             'text' => 'Events',
-                            'url'  => "yajra/autofill.events"
+                            'url'  => "yajra/datatables.autofill.events"
                         ]
 
                     ]
@@ -343,12 +343,12 @@ return [
                     'submenu' => [
                         [
                             'text' => 'Multi-level collections',
-                            'url'  => "yajra/buttons.multilevelcollections"
+                            'url'  => "yajra/datatables.buttons.multilevelcollections"
                         ],
 
                         [
                             'text' => 'Plug-ins',
-                            'url'  => "yajra/buttons.plugins"
+                            'url'  => "yajra/datatables.buttons.plugins"
                         ]
 
                     ]
@@ -358,12 +358,12 @@ return [
                     'submenu' => [
                         [
                             'text' => 'Individual column filtering',
-                            'url'  => "yajra/colreorder.individualcolumnfiltering"
+                            'url'  => "yajra/datatables.colreorder.individualcolumnfiltering"
                         ],
 
                         [
                             'text' => 'Scrolling table',
-                            'url'  => "yajra/colreorder.scrollingtable"
+                            'url'  => "yajra/datatables.colreorder.scrollingtable"
                         ]
 
                     ]
@@ -434,12 +434,12 @@ return [
                     'submenu' => [
                         [
                             'text' => 'Fluid column width',
-                            'url'  => "yajra/fixedcolumns.fluidcolumnwidth"
+                            'url'  => "yajra/datatables.fixedcolumns.fluidcolumnwidth"
                         ],
 
                         [
                             'text' => 'Server-side processing',
-                            'url'  => "yajra/fixedcolumns.serversideprocessing"
+                            'url'  => "yajra/datatables.fixedcolumns.serversideprocessing"
                         ]
 
                     ]
@@ -449,12 +449,12 @@ return [
                     'submenu' => [
                         [
                             'text' => 'Column filtering',
-                            'url'  => "yajra/fixedheader.columnfiltering"
+                            'url'  => "yajra/datatables.fixedheader.columnfiltering"
                         ],
 
                         [
                             'text' => 'Enable / disable FixedHeader',
-                            'url'  => "yajra/fixedheader.enable-disable"
+                            'url'  => "yajra/datatables.fixedheader.enable-disable"
                         ]
 
                     ]
@@ -464,12 +464,12 @@ return [
                     'submenu' => [
                         [
                             'text' => 'Events',
-                            'url'  => "yajra/keytable.events"
+                            'url'  => "yajra/datatables.keytable.events"
                         ],
 
                         [
                             'text' => 'Server-side processing',
-                            'url'  => "yajra/keytable.serversideprocessing"
+                            'url'  => "yajra/datatables.keytable.serversideprocessing"
                         ]
 
                     ]
@@ -479,12 +479,12 @@ return [
                     'submenu' => [
                         [
                             'text' => 'Bootstrap 5 modal',
-                            'url'  => "yajra/responsive.bootstrap5modal"
+                            'url'  => "yajra/datatables.responsive.bootstrap5modal"
                         ],
 
                         [
                             'text' => 'Custom child row renderer',
-                            'url'  => "yajra/responsive.customchildrowrenderer"
+                            'url'  => "yajra/datatables.responsive.customchildrowrenderer"
                         ]
 
                     ]
@@ -494,12 +494,12 @@ return [
                     'submenu' => [
                         [
                             'text' => 'Custom row rendering / aggregates',
-                            'url'  => "yajra/rowgroup.customrowrendering"
+                            'url'  => "yajra/datatables.rowgroup.customrowrendering"
                         ],
 
                         [
                             'text' => 'Data source change event',
-                            'url'  => "yajra/rowgroup.datasourcechangeevent"
+                            'url'  => "yajra/datatables.rowgroup.datasourcechangeevent"
                         ]
 
                     ]
@@ -509,12 +509,12 @@ return [
                     'submenu' => [
                         [
                             'text' => 'Full row selection',
-                            'url'  => "yajra/rowreorder.fullrowselection"
+                            'url'  => "yajra/datatables.rowreorder.fullrowselection"
                         ],
 
                         [
                             'text' => 'Reorder event',
-                            'url'  => "yajra/rowreorder.reorderevent"
+                            'url'  => "yajra/datatables.rowreorder.reorderevent"
                         ]
 
                     ]
@@ -524,11 +524,11 @@ return [
                     'submenu' => [
                         [
                             'text' => 'Server-side processing',
-                            'url'  => "yajra/scroller.serversideprocessing"
+                            'url'  => "yajra/datatables.scroller.serversideprocessing"
                         ],
                         [
                             'text' => 'State saving',
-                            'url'  => "yajra/scroller.statesaving"
+                            'url'  => "yajra/datatables.scroller.statesaving"
                         ],
                     ]
                 ],
@@ -537,15 +537,15 @@ return [
                     'submenu' => [
                         [
                             'text' => 'Custom Conditions',
-                            'url'  => "yajra/searchBuilder.customconditions"
+                            'url'  => "yajra/datatables.searchBuilder.customconditions"
                         ],
                         [
                             'text' => 'Plug-in Example',
-                            'url'  => "yajra/searchBuilder.pluginexample"
+                            'url'  => "yajra/datatables.searchBuilder.pluginexample"
                         ],
                         [
                             'text' => 'SearchBuilder Configuration using Buttons',
-                            'url'  => "yajra/searchBuilder.buttonOptions"
+                            'url'  => "yajra/datatables.searchBuilder.buttonOptions"
                         ],
                     ]
                 ],
@@ -554,15 +554,15 @@ return [
                     'submenu' => [
                         [
                             'text' => 'Collapsed Panes',
-                            'url'  => "yajra/searchpanes.collapsedpanes"
+                            'url'  => "yajra/datatables.searchpanes.collapsedpanes"
                         ],
                         [
                             'text' => 'SearchPanes Button Configuration',
-                            'url'  => "yajra/searchpanes.buttonsConfig"
+                            'url'  => "yajra/datatables.searchpanes.buttonsConfig"
                         ],
                         [
                             'text' => 'Server-side processing',
-                            'url'  => "yajra/searchpanes.serversideprocessing"
+                            'url'  => "yajra/datatables.searchpanes.serversideprocessing"
                         ],
                     ]
                 ],
@@ -571,11 +571,11 @@ return [
                     'submenu' => [
                         [
                             'text' => 'Checkbox selection',
-                            'url'  => "yajra/select.checkboxselection"
+                            'url'  => "yajra/datatables.select.checkboxselection"
                         ],
                         [
                             'text' => 'State Save',
-                            'url'  => "yajra/select.statesave"
+                            'url'  => "yajra/datatables.select.statesave"
                         ],
                     ]
                 ],
@@ -584,11 +584,11 @@ return [
                     'submenu' => [
                         [
                             'text' => 'Custom Split Buttons',
-                            'url'  => "yajra/staterestore.customsplitbuttons"
+                            'url'  => "yajra/datatables.staterestore.customsplitbuttons"
                         ],
                         [
                             'text' => 'Remove All Button',
-                            'url'  => "yajra/staterestore.removeallbutton"
+                            'url'  => "yajra/datatables.staterestore.removeallbutton"
                         ],
                     ]
                 ],
