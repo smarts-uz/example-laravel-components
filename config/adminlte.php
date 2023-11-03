@@ -600,31 +600,31 @@ return [
             'submenu' => [
                 [
                     'text' => 'Google Drive',
-                    'url'  => "/uppy/GoogleDrive.example"
+                    'url'  => "/uppy/uppy.GoogleDrive.example"
                 ],
                 [
                     'text' => 'Instagram',
-                    'url'  => "/uppy/Instagram.example"
+                    'url'  => "/uppy/uppy.Instagram.example"
                 ],
                 [
                     'text' => 'OneDrive',
-                    'url'  => "/uppy/OneDrive.example"
+                    'url'  => "/uppy/uppy.OneDrive.example"
                 ],
                 [
                     'text' => 'Box',
-                    'url'  => "/uppy/Box.example"
+                    'url'  => "/uppy/uppy.Box.example"
                 ],
                 [
                     'text' => 'Dropbox',
-                    'url'  => "/uppy/Dropbox.example"
+                    'url'  => "/uppy/uppy.Dropbox.example"
                 ],
                 [
                     'text' => 'Import from Url',
-                    'url'  => "/uppy/Url.example"
+                    'url'  => "/uppy/uppy.Url.example"
                 ],
                 [
                     'text' => 'Unsplash',
-                    'url'  => "/uppy/Unsplash.example"
+                    'url'  => "/uppy/uppy.Unsplash.example"
                 ],
             ]
         ],
