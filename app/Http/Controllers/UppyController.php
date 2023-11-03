@@ -7,22 +7,25 @@ use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class UppyController extends Controller
 {
     private UppyService $service;
 
-    public function __construct(UppyService $service)
+    public function __construct()
     {
-        $this->service = $service;
+        $this->service = new UppyService();
     }
 
     /**
+     * @param $name
      * @return Factory|View|Application
      */
-    public function view(): Factory|View|Application
+    public function view($name): Factory|View|Application
     {
-        return view('uppy');
+        Log::info('UppyControllerView',['blade' => 'uppy']);
+        return view($name);
     }
     /**
      * Image Upload
@@ -32,6 +35,7 @@ class UppyController extends Controller
      */
     public function uploadImage(Request $request): bool
     {
+        Log::info('UppyControllerUploadImage',['request' => $request]);
         return $this->service->uploadImage($request);
     }
 }

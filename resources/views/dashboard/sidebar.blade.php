@@ -30,6 +30,59 @@
                                 <p>Eimzo</p>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <button data-toggle="collapse" data-target="#demo" class="nav-link">
+                                <div class="float-left">
+                                    <div>
+                                        <i class="nav-icon fas fa-sort float-left"></i>
+                                        <p>{{ __('Статусы') }}</p>
+                                    </div>
+                                    <div class="d-flex align-items-start flex-column">
+                                            <a href="#" id="demo" class="collapse">
+                                                <i class="nav-icon fas fa-chevron-right"></i>
+                                                <p>{{ __('new') }}</p>
+                                            </a>
+                                            <a href="#" id="demo" class="collapse">
+                                                <i class="nav-icon fas fa-chevron-right"></i>
+                                                <p>{{ __('in_process') }}</p>
+                                            </a>
+                                            <a href="#" id="demo" class="collapse">
+                                                <i class="nav-icon fas fa-chevron-right"></i>
+                                                <p>{{ __('refused') }}</p>
+                                            </a>
+                                        <a href="#" id="demo" class="collapse">
+                                            <i class="nav-icon fas fa-chevron-right"></i>
+                                            <p>{{ __('Согласован') }}</p>
+                                        </a>
+                                        <a href="#" id="demo" class="collapse">
+                                            <i class="nav-icon fas fa-chevron-right"></i>
+                                            <p>{{ __('Отказ') }}</p>
+                                        </a>
+
+                                        <a href="#" id="demo" class="collapse">
+                                            <i class="nav-icon fas fa-chevron-right"></i>
+                                            <p>{{ __('distributed') }}</p>
+                                        </a>
+                                        <a href="#" id="demo" class="collapse">
+                                            <i class="nav-icon fas fa-chevron-right"></i>
+                                            <p>{{ __('canceled') }}</p>
+                                        </a>
+                                        <a href="#" id="demo" class="collapse">
+                                            <i class="nav-icon fas fa-chevron-right"></i>
+                                            <p>{{ __('overdue') }}</p>
+                                        </a>
+                                        <a href="#demo" class="collapse">
+                                            <i class="nav-icon fas fa-chevron-right"></i>
+                                            <p>{{ __('for_signature') }}</p>
+                                        </a>
+                                        <a href="#demo" class="collapse">
+                                            <i class="nav-icon fas fa-chevron-right"></i>
+                                            <p>{{ __('Performer_status') }}</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </button>
+                        </li>
                     </ul>
                 </li>
             </ul>

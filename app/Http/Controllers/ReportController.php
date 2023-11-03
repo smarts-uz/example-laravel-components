@@ -2,32 +2,54 @@
 
 namespace App\Http\Controllers;
 
+use App\DataTables\Scopes\SearchBuilder;
+use App\DataTables\UsersDataTable;
+use App\DataTables\UsersDataTableEditor;
 use App\Services\ReportExportService;
 use App\Services\ReportService;
 use Exception;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\View\View;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Yajra\DataTables\DataTablesEditorException;
 
 class ReportController extends Controller
 {
     private ReportExportService $exportService;
     private ReportService $service;
 
-    public function __construct(ReportExportService $exportService, ReportService $service)
+    public function __construct()
     {
-        $this->exportService = $exportService;
-        $this->service = $service;
+        $this->exportService = new ReportExportService();
+        $this->service = new ReportService();
     }
 
     /**
+     * Editor Update Process
+     *
+     * @param UsersDataTableEditor $editor
+     * @return JsonResponse|mixed
+     * @throws DataTablesEditorException
+     */
+    public function store(UsersDataTableEditor $editor)
+    {
+        $process = $editor->process(request());
+        Log::info('ReportControllerStore',['request' => request(),'process' => $process]);
+        return $process;
+    }
+
+    /**
+     * @param $name
      * @return View
      */
-    public function view(): View
+    public function view($name): View
     {
-        return view('report');
+        Log::info('ReportControllerView',['blade' => $name]);
+        return view($name);
     }
+
     /**
      * @return JsonResponse
      * @throws Exception
@@ -35,6 +57,15 @@ class ReportController extends Controller
     public function report(): JsonResponse
     {
         return $this->service->report();
+
+    }
+    /**
+     * @return JsonResponse
+     * @throws Exception
+     */
+    public function getBranch(): JsonResponse
+    {
+        return $this->service->getBranch();
 
     }
     /**
@@ -46,6 +77,7 @@ class ReportController extends Controller
      */
     public function report_export($model, Request $request): BinaryFileResponse
     {
+        Log::info('ReportControllerExport',['request' => $request,'model' => $model]);
         return $this->exportService->export($model, $request);
     }
 }

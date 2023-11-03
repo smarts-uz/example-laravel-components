@@ -14,6 +14,7 @@ class UppyService
      */
     public function uploadImage($request): bool
     {
+        $filePath = false;
         if ($request->hasFile('file')) {
             $file = $request->file('file');
             $fileName = time() . '_' . $file->getClientOriginalName();
