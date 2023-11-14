@@ -4,6 +4,7 @@ use App\Http\Controllers\AppendGridController;
 use App\Http\Controllers\EimzoController;
 use App\Http\Controllers\ReportController;
 use App\Http\Controllers\UppyController;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -34,7 +35,7 @@ Route::controller(UppyController::class)->group(function() {
     Route::post('/uploadimage/update', 'uploadImage')->name('uploadImage');
 });
 Route::controller(EimzoController::class)->group(function() {
-    Route::get('/eimzo', 'view')->name('eimzo');
+    Route::get('/eimzo/{name}', 'view')->name('eimzo');
 });
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

@@ -630,8 +630,17 @@ return [
         ],
         [
             'text' => 'Eimzo',
-            'url' => '/eimzo',
             'icon_color' => 'cyan',
+            'submenu' => [
+                [
+                    'text' => 'Sign',
+                    'url'  => "/eimzo/eimzo.sign"
+                ],
+                [
+                    'text' => 'Login',
+                    'url'  => "/eimzo/eimzo.login"
+                ],
+            ]
         ],
         [
             'text' => 'AppendGrid',

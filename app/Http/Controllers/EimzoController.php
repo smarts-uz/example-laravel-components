@@ -10,9 +10,9 @@ class EimzoController extends Controller
     /**
      * @return View
      */
-    public function view() : View
+    public function view($name) : View
     {
-        Log::info('EimzoControllerView',['blade' => 'eimzologin']);
-        return view('eimzologin');
+        Log::info('EimzoControllerView',['blade' => $name]);
+        return view($name);
     }
 }
