@@ -19,9 +19,7 @@
     <button onclick="sign()" type="button">Подписать</button><br />
     ID ключа <label id="keyId"></label><br />
     Подписанный документ PKCS#7<br />
-    <textarea class="form-control" name="pkcs7"></textarea><br /><br />
-    Certificates<br />
-    <textarea class="form-control" name="certificates"></textarea><br />
+    <textarea class="form-control" name="pkcs7"></textarea><br />
 </form>
 </body>
 <script>
