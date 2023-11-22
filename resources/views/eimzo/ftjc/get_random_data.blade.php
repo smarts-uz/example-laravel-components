@@ -1,15 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="/vendor/eimzo/assets/js/eimzo/e-imzo.js"></script>
-    <script src="/vendor/eimzo/assets/js/eimzo/e-imzo-client.js"></script>
-</head>
-<body>
+@extends('adminlte::page')
+
+@section('title', 'Example App')
+
+@section('content_header')
+@stop
+@section('content')
 <form name=testform>
     <label id="message"></label>
     Выберите ключ <br />
@@ -20,8 +15,11 @@
     ID ключа <label id="keyId"></label><br />
     Подписанный документ PKCS#7<br />
     <textarea class="form-control" name="pkcs7"></textarea><br />
-</form>
-</body>
+</form> @stop
+
+@section('js')
+    <script src="/vendor/eimzo/assets/js/eimzo/e-imzo.js"></script>
+    <script src="/vendor/eimzo/assets/js/eimzo/e-imzo-client.js"></script>
 <script>
 
     var EIMZO_MAJOR = 3;
@@ -238,4 +236,4 @@
     window.onload = AppLoad;
 
 </script>
-</html>
+@stop
