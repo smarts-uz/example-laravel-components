@@ -633,6 +633,85 @@ return [
             'icon_color' => 'cyan',
             'submenu' => [
                 [
+                    'text' => 'pkcs7',
+                    'submenu' => [
+                        [
+                            'text' => 'create_pkcs7',
+                            'url'  => "/eimzo/eimzo.pkcs7.create_pkcs7"
+                        ],
+                    ]
+                ],
+                [
+                    'text' => 'pfx',
+                    'submenu' => [
+                        [
+                            'text' => 'list_all_certificates',
+                            'url'  => "/eimzo/eimzo.pfx.list_all_certificates"
+                        ],
+                        [
+                            'text' => 'change_password ',
+                            'url'  => "/eimzo/eimzo.pfx.change_password"
+                        ],
+                        [
+                            'text' => 'verify_password',
+                            'url'  => "/eimzo/eimzo.pfx.verify_password"
+                        ],
+                        [
+                            'text' => 'list_disks',
+                            'url'  => "/eimzo/eimzo.pfx.list_disks"
+                        ],
+                        [
+                            'text' => 'list_certificates',
+                            'url'  => "/eimzo/eimzo.pfx.list_certificates"
+                        ],
+                        [
+                            'text' => 'unload_key',
+                            'url'  => "/eimzo/eimzo.pfx.unload_key"
+                        ],
+                    ]
+                ],
+                [
+                    'text' => 'ftjc',
+                    'submenu' => [
+                        [
+                            'text' => 'set_name',
+                            'url'  => "/eimzo/eimzo.ftjc.set_name"
+                        ],
+                        [
+                            'text' => 'verify_pin ',
+                            'url'  => "/eimzo/eimzo.ftjc.verify_pin"
+                        ],
+                        [
+                            'text' => 'list_all_keys',
+                            'url'  => "/eimzo/eimzo.ftjc.list_all_keys"
+                        ],
+                        [
+                            'text' => 'get_user_data',
+                            'url'  => "/eimzo/eimzo.ftjc.get_user_data"
+                        ],
+                        [
+                            'text' => 'list_tokens',
+                            'url'  => "/eimzo/eimzo.ftjc.list_tokens"
+                        ],
+                        [
+                            'text' => 'change_pin',
+                            'url'  => "/eimzo/eimzo.ftjc.change_pin"
+                        ],
+                        [
+                            'text' => 'get_random_data',
+                            'url'  => "/eimzo/eimzo.ftjc.get_random_data"
+                        ],
+                        [
+                            'text' => 'unload_key',
+                            'url'  => "/eimzo/eimzo.ftjc.unload_key"
+                        ],
+                        [
+                            'text' => 'load_key',
+                            'url'  => "/eimzo/eimzo.ftjc.load_key"
+                        ],
+                    ]
+                ],
+                [
                     'text' => 'Sign',
                     'url'  => "/eimzo/eimzo.sign"
                 ],
