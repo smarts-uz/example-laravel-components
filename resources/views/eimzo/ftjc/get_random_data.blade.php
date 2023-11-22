@@ -15,7 +15,8 @@
     ID ключа <label id="keyId"></label><br />
     Подписанный документ PKCS#7<br />
     <textarea class="form-control" name="pkcs7"></textarea><br />
-</form> @stop
+</form>
+@stop
 
 @section('js')
     <script src="/vendor/eimzo/assets/js/eimzo/e-imzo.js"></script>
