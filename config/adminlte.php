@@ -639,6 +639,18 @@ return [
                             'text' => 'create_pkcs7',
                             'url'  => "/eimzo/eimzo.pkcs7.create_pkcs7"
                         ],
+                        [
+                            'text' => 'attach_timestamp',
+                            'url'  => "/eimzo/eimzo.pkcs7.attach_timestamp_token_pkcs7"
+                        ],
+                        [
+                            'text' => 'verify_pkcs7_attached',
+                            'url'  => "/eimzo/eimzo.pkcs7.verify_pkcs7_attached"
+                        ],
+                        [
+                            'text' => 'append_pkcs7_attached',
+                            'url'  => "/eimzo/eimzo.pkcs7.append_pkcs7_attached"
+                        ],
                     ]
                 ],
                 [
