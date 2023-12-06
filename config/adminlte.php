@@ -633,6 +633,27 @@ return [
             'icon_color' => 'cyan',
             'submenu' => [
                 [
+                    'text' => 'certkey',
+                    'submenu' => [
+                        [
+                            'text' => 'list_all_certificates',
+                            'url'  => "/eimzo/eimzo.certkey.list_all_certificates"
+                        ],
+                        [
+                            'text' => 'list_disks',
+                            'url'  => "/eimzo/eimzo.certkey.list_disks"
+                        ],
+                        [
+                            'text' => 'list_certificates',
+                            'url'  => "/eimzo/eimzo.certkey.list_certificates"
+                        ],
+                        [
+                            'text' => 'unload_key',
+                            'url'  => "/eimzo/eimzo.certkey.unload_key"
+                        ],
+                    ]
+                ],
+                [
                     'text' => 'pkcs7',
                     'submenu' => [
                         [
