@@ -1,0 +1,110 @@
+\doxysection{Report\+Controller Class Reference}
+\hypertarget{class_app_1_1_http_1_1_controllers_1_1_report_controller}{}\label{class_app_1_1_http_1_1_controllers_1_1_report_controller}\index{ReportController@{ReportController}}
+Inheritance diagram for Report\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_app_1_1_http_1_1_controllers_1_1_report_controller}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_report_controller_a8bf83d01b0fdf34dac6be639ab95401e}{store}} (Users\+Data\+Table\+Editor \$editor)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_report_controller_a7c8ab1f2dbae8c3bdbecf7f2722d0f58}{view}} (\$name)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_report_controller_a8c55a4219ac9052b463b2bcfb0fa5fe9}{report}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_report_controller_a90d5f5741044e5c75524f87cd7a60192}{get\+Branch}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_report_controller_ab7751757411d464e5672082ff0a0b308}{report\+\_\+export}} (\$model, Request \$request)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_report_controller_a90d5f5741044e5c75524f87cd7a60192}\label{class_app_1_1_http_1_1_controllers_1_1_report_controller_a90d5f5741044e5c75524f87cd7a60192} 
+\index{ReportController@{ReportController}!getBranch@{getBranch}}
+\index{getBranch@{getBranch}!ReportController@{ReportController}}
+\doxysubsubsection{\texorpdfstring{getBranch()}{getBranch()}}
+{\footnotesize\ttfamily get\+Branch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Json\+Response 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_report_controller_a8c55a4219ac9052b463b2bcfb0fa5fe9}\label{class_app_1_1_http_1_1_controllers_1_1_report_controller_a8c55a4219ac9052b463b2bcfb0fa5fe9} 
+\index{ReportController@{ReportController}!report@{report}}
+\index{report@{report}!ReportController@{ReportController}}
+\doxysubsubsection{\texorpdfstring{report()}{report()}}
+{\footnotesize\ttfamily report (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Json\+Response 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_report_controller_ab7751757411d464e5672082ff0a0b308}\label{class_app_1_1_http_1_1_controllers_1_1_report_controller_ab7751757411d464e5672082ff0a0b308} 
+\index{ReportController@{ReportController}!report\_export@{report\_export}}
+\index{report\_export@{report\_export}!ReportController@{ReportController}}
+\doxysubsubsection{\texorpdfstring{report\_export()}{report\_export()}}
+{\footnotesize\ttfamily report\+\_\+export (\begin{DoxyParamCaption}\item[{}]{\$model,  }\item[{Request}]{\$request }\end{DoxyParamCaption})}
+
+Report Export
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em \$model} & \\
+\hline
+Request & {\em \$request} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Binary\+File\+Response 
+\end{DoxyReturn}
+\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_report_controller_a8bf83d01b0fdf34dac6be639ab95401e}\label{class_app_1_1_http_1_1_controllers_1_1_report_controller_a8bf83d01b0fdf34dac6be639ab95401e} 
+\index{ReportController@{ReportController}!store@{store}}
+\index{store@{store}!ReportController@{ReportController}}
+\doxysubsubsection{\texorpdfstring{store()}{store()}}
+{\footnotesize\ttfamily store (\begin{DoxyParamCaption}\item[{Users\+Data\+Table\+Editor}]{\$editor }\end{DoxyParamCaption})}
+
+Editor Update Process
+
+
+\begin{DoxyParams}[1]{Parameters}
+Users\+Data\+Table\+Editor & {\em \$editor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Json\+Response\texorpdfstring{$\vert$}{|}mixed 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Data\+Tables\+Editor\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_report_controller_a7c8ab1f2dbae8c3bdbecf7f2722d0f58}\label{class_app_1_1_http_1_1_controllers_1_1_report_controller_a7c8ab1f2dbae8c3bdbecf7f2722d0f58} 
+\index{ReportController@{ReportController}!view@{view}}
+\index{view@{view}!ReportController@{ReportController}}
+\doxysubsubsection{\texorpdfstring{view()}{view()}}
+{\footnotesize\ttfamily view (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+View 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Report\+Controller.\+php\end{DoxyCompactItemize}
